@@ -1,7 +1,7 @@
 
 # Proyecto HydrateX
 <p align="center">
-  <img src="\HydrateX\logo-HydrateX.png" alt="Logo HydrateX" width="300">
+  <img src="logo-HydrateX.png" alt="Logo HydrateX" width="300">
 </p>
 
 ## Descripción
