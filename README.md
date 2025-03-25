@@ -36,13 +36,13 @@ Desarrollar un prototipo de pastillero integrado a una botella y vinculado a una
 
 <p align="justify">
 
-• Analizar y definir los elementos de hardware y software para la elaboración del proyecto.
-•	Realizar el diseño del prototipo del proyecto.
-•	Realizar la maquetación de la estructura del proyecto.
-•	Realizar el desarrollo de software del proyecto.
-•	Realizar y vincular la base de datos del proyecto.
-•	Realizar pruebas de funcionalidad del proyecto y documentarlas de ser necesario.
-•	Implementar mejoras al proyecto en caso de ser necesario.
+- Analizar y definir los elementos de hardware y software para la elaboración del proyecto.
+-	Realizar el diseño del prototipo del proyecto.
+-	Realizar la maquetación de la estructura del proyecto.
+-	Realizar el desarrollo de software del proyecto.
+-	Realizar y vincular la base de datos del proyecto.
+-	Realizar pruebas de funcionalidad del proyecto y documentarlas de ser necesario.
+-	Implementar mejoras al proyecto en caso de ser necesario.
 
 </p>
 
@@ -51,10 +51,11 @@ Desarrollar un prototipo de pastillero integrado a una botella y vinculado a una
 <p align="justify">
 HydrateX está dirigido a:
 </p>
-•	Personas mayores que requieren apoyo para la administración de sus medicamentos sin depender de aplicaciones complejas.
-•	Pacientes con enfermedades crónicas (diabetes, hipertensión, etc.) que necesitan un control preciso de su medicación.
-•	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
-•	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
+
+-	Personas mayores que requieren apoyo para la administración de sus medicamentos sin depender de aplicaciones complejas.
+- Pacientes con enfermedades crónicas (diabetes, hipertensión, etc.) que necesitan un control preciso de su medicación.
+-	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
+-	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
 
 ## Colaboradoes
 
