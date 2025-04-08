@@ -25,7 +25,7 @@ Este proyecto consiste en un **pastillero automático inteligente** diseñado pa
 | **ESP32**           | Microcontrolador Wi-Fi/Bluetooth          |  
 | **Servo SG90 360°** | Motor de rotación continua (5V)           |  
 | **LED RGB**         | Indicador visual (rojo/verde/azul)        |  
-| **Batería**         | Power Bank o batería LiPo (5V)            |  
+| **Batería**         | Portador de baterias o batería LiPo (7.4V) |  
 | **Estructura**      | Impresión 3D o caja plástica personalizada |  
 
 ---

@@ -1,48 +1,49 @@
 
-# Proyecto HydrateX
-<p align="center">
-  <img src="logo-HydrateX.png" alt="Logo HydrateX" width="300">
-</p>
-
-## Descripción
-
-<p align="justify">
-HydrateX es un proyecto universitario innovador que busca transformar la forma en que las personas se hidratan. A través del uso de tecnologías de Internet de las Cosas (IoT), el proyecto desarrolla una botella inteligente capaz de conectarse con una plataforma web y una aplicación móvil. Esta conexión permite un monitoreo en tiempo real del consumo de agua y proporciona recomendaciones personalizadas para mejorar hábitos de hidratación.
-</p>
+# Proyecto PillBox
+<table>
+   <td>Logo de la Aplicacion</td>
+   <td>Logo de empresa</td>
+  <tr>
+    <td>  <img src="LogoPillbox.png" width="80%" style="padding: 10px;" />  </td>
+    <td>   <img src="meditech_empresa.png" width="80%" style="padding: 10px;" /> </td> 
+  </tr>
+</table>
 
 ## ¿Qué es?
 <p align="justify">
-HydrateX es una botella inteligente equipada con sensores y conectividad IoT, diseñada para registrar y analizar la ingesta de agua del usuario. Su integración con una aplicación móvil y una plataforma web facilita el acceso a datos e informes personalizados.
+PillBox es un pastillero inteligente  integrado a una botella con tecnología IoT diseñado para ayudar a las personas a gestionar su medicación de manera eficiente. Está equipado con sensores y conectividad que permiten registrar y controlar la administración de medicamentos. Su integración con una aplicación móvil y una plataforma web facilita el acceso a datos en tiempo real, recordatorios y alertas personalizadas para mejorar la adherencia al tratamiento.
 </p>
 
 ## ¿Para qué sirve?
 
 <p align="justify">
-El objetivo de HydrateX es mejorar la salud y el bienestar de los usuarios al ayudarlos a mantener niveles óptimos de hidratación. La botella inteligente alerta cuando es necesario beber agua, ofrece recomendaciones según el estilo de vida y necesidades de cada usuario y contribuye a la adopción de hábitos saludables.
+PillBox tiene como objetivo mejorar la salud y calidad de vida de los usuarios al garantizar que tomen sus medicamentos en el momento adecuado. Proporciona alertas visuales y sonoras para recordar la ingesta de medicamentos, permite a los cuidadores y familiares monitorear el cumplimiento del tratamiento y ofrece información detallada sobre el consumo de medicamentos a través de la aplicación móvil y la plataforma web.
 </p>
 
 ## Problemática
 
 <p align="justify">
-La deshidratación es un problema común que afecta el rendimiento físico y cognitivo de las personas. Muchas personas no consumen la cantidad de agua adecuada debido a la falta de hábito, olvido o falta de información sobre su consumo diario. HydrateX aborda este problema proporcionando una solución tecnológica que ayuda a monitorear y mejorar la ingesta de agua.
+Muchas personas olvidan tomar sus medicamentos o tienen dificultades para organizar su tratamiento, lo que puede afectar negativamente su salud y reducir la efectividad del mismo. Este problema es especialmente crítico en adultos mayores y pacientes con enfermedades crónicas, quienes requieren un control preciso de su medicación. PillBox aborda esta problemática ofreciendo una solución tecnológica que facilita el monitoreo y la adherencia al tratamiento mediante recordatorios inteligentes, alertas y acceso remoto para cuidadores y familiares.
 </p>
 
 ## Objetivo General (Solucion)
 
 <p align="justify">
-Desarrollar y comercializar una botella inteligente conectada a una plataforma web y aplicación móvil que permita a los usuarios monitorear y optimizar su consumo de agua de manera eficiente y personalizada.
+Desarrollar un prototipo de pastillero integrado a una botella y vinculado a una aplicación multiplataforma que enviara alertas visuales y sonoras, con la finalidad de mejorar la accesibilidad al medicamento y que a su vez sirva como ayuda para recordar los horarios de acuerdo con el tratamiento médico.
 </p>
 
 ## Objetivos Específicos
 
 <p align="justify">
 
-- Diseñar una botella con tecnología IoT capaz de registrar el consumo de agua en tiempo real.
+- Analizar y definir los elementos de hardware y software para la elaboración del proyecto.
+-	Realizar el diseño del prototipo del proyecto.
+-	Realizar la maquetación de la estructura del proyecto.
+-	Realizar el desarrollo de software del proyecto.
+-	Realizar y vincular la base de datos del proyecto.
+-	Realizar pruebas de funcionalidad del proyecto y documentarlas de ser necesario.
+-	Implementar mejoras al proyecto en caso de ser necesario.
 
-- Desarrollar una aplicación móvil y plataforma web que brinde acceso a datos e informes personalizados.
-- Implementar alertas y recomendaciones basadas en los hábitos y necesidades de cada usuario.
-- Fomentar la adopción de hábitos saludables de hidratación mediante el uso de tecnología inteligente.
-- Evaluar el impacto del uso de la botella en la mejora de la hidratación y bienestar de los usuarios.
 </p>
 
 ## ¿A qué público va dirigido?
@@ -51,10 +52,11 @@ Desarrollar y comercializar una botella inteligente conectada a una plataforma w
 HydrateX está dirigido a:
 </p>
 
-- Personas con un estilo de vida activo que desean mejorar su hidratación.
-- Deportistas y atletas que buscan un monitoreo preciso de su consumo de agua.
-- Profesionales y estudiantes con jornadas largas que necesitan recordatorios de hidratación.
-- Adultos mayores o personas con condiciones médicas que requieren un control más estricto de su ingesta de líquidos.
+-	Personas mayores que requieren apoyo para la administración de sus medicamentos sin depender de aplicaciones complejas.
+- Pacientes con enfermedades crónicas (diabetes, hipertensión, etc.) que necesitan un control preciso de su medicación.
+-	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
+-	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
+
 ## Colaboradoes
 
 | Nombre                        | Usuario             | Roles |
