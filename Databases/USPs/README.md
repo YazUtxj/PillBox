@@ -18,10 +18,11 @@ La sección "USPS" alberga documentación, configuraciones y recursos relacionad
 >&nbsp;&nbsp;|- Triggers<br>
 >&nbsp;&nbsp;|- **USPs**<br>
 >| - Documentation<br>
->| - FrontEnd
+>| - FrontEnd<br>
+>| - IoT
 
 
-## Colaboradoes
+## Colaboradores
 
 | Nombre                        | Usuario             | Roles |
 |-------------------------------|---------------------|--------|

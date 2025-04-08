@@ -18,11 +18,12 @@ En apartado de diagramas en la documentación del proyecto incluye representacio
 >&nbsp;&nbsp;|- Triggers<br>
 >&nbsp;&nbsp;|- USPs<br>
 >| - Documentation<br>
->| - FrontEnd
+>| - FrontEnd<br>
+>| - IoT
 
 
 
-## Colaboradoes
+## Colaboradores
 
 | Nombre                        | Usuario             | Roles |
 |-------------------------------|---------------------|--------|
