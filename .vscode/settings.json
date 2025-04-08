@@ -16,21 +16,21 @@
         "editor.selectionBackground": "#4E5B62",  // Selección de texto en azul suave
         
         // Colores de la terminal (fondo gris oscuro, texto blanco)
-        "terminal.background": "#2E2E2E",  // Fondo gris oscuro en la terminal
+        "terminal.background": "#192c55",  // Fondo gris oscuro en la terminal
         "terminal.foreground": "#D4D4D4",  // Texto blanco en la terminal
 
         // Barra de estado (gris con texto blanco)
-        "statusBar.background": "#333333",  // Barra de estado gris oscuro
-        "statusBar.foreground": "#FFFFFF",  // Texto blanco en la barra de estado
+        "statusBar.background": "#06c5ff",  // Barra de estado gris oscuro
+        "statusBar.foreground": "#130457",  // Texto blanco en la barra de estado
 
         // Cambiar color de la rama activa en la barra de estado
-        "gitDecoration.modifiedResourceForeground": "#FFA500",  // Color de archivos modificados (naranja)
-        "gitDecoration.addedResourceForeground": "#32CD32",  // Color de archivos añadidos (verde)
+        "gitDecoration.modifiedResourceForeground": "#07ff45",  // Color de archivos modificados (naranja)
+        "gitDecoration.addedResourceForeground": "#187a04",  // Color de archivos añadidos (verde)
         "gitDecoration.deletedResourceForeground": "#FF6347",  // Color de archivos eliminados (rojo)
         "gitDecoration.untrackedResourceForeground": "#A9A9A9",  // Color de archivos no rastreados (gris)
 
         // Barra de menú (donde están File, Edit, Selection, etc.)
-        "menubar.selectionBackground": "#2E3B4E",  // Color de fondo para selección en el menú superior
+        "menubar.selectionBackground": "#0c6dff",  // Color de fondo para selección en el menú superior
         "menubar.selectionForeground": "#FFFFFF",  // Texto blanco cuando seleccionas una opción en el menú
         "menubar.background": "#333333",  // Fondo de la barra de menú (gris oscuro para mantener la estética
 
@@ -45,14 +45,8 @@
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.lineHeight": 22,
-
-    // Mejorar la legibilidad de las líneas de código
-    "editor.wordWrap": "on",
-    "editor.scrollBeyondLastLine": false,
-    "editor.renderWhitespace": "boundary",
-    "editor.renderControlCharacters": true,
-    "editor.rulers": [80],  // Línea de regla a los 80 caracteres (para buenas prácticas de código)
-    
+    "editor.fontLigatures": true,  // Habilitar ligaduras para una mejor legibilidad
+        
     // Configuración para las pestañas (comodidad visual)
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.showTabs": true
