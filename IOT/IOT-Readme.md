@@ -114,9 +114,3 @@ Este proyecto está bajo la licencia **MIT**. Más detalles en [LICENSE](LICENSE
 - 🌐 GitHub: [@tuusuario](https://github.com/tuusuario)  
 
 ---
-
-**¡Gracias por tu interés en el proyecto!** 💊🤖  
-
---- 
-
-Este formato es estándar para documentar proyectos técnicos en GitHub/GitLab. Incluye secciones clave como instalación, uso, componentes y estructura de código. Si necesitas profundizar en algún apartado (ej: esquemáticos electrónicos), ¡avísame! 😊

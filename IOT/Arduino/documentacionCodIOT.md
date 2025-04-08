@@ -1,7 +1,3 @@
-¡Claro! Aquí tienes un `README.md` más bonito, organizado y con emojis para que sea más visual y atractivo 🚀😄:
-
----
-
 # 🌡️📦 Sistema de Monitoreo de Contenedores con ESP32
 
 Este proyecto utiliza un **ESP32** para monitorear contenedores a través de **sensores DHT22**, **LEDs**, **buzzer**, y comunicación vía **WiFi** con una API en Node.js. ¡Perfecto para proyectos de automatización y control inteligente! ⚙️✨
@@ -173,16 +169,4 @@ Dirección IP de la ESP32: 192.168.43.155
 ✅ Contenedor 0: 2 horas -> 7200 segundos
 Días: 1 -> 86400 segundos
 ```
-
 ---
-
-## 🧪 Futuras mejoras
-
-- Panel de configuración web
-- Visualización en pantalla OLED
-- Notificaciones vía Telegram o correo
-- Soporte para múltiples sensores
-
----
-
-¿Te gustaría que lo convierta a PDF también? 📄
