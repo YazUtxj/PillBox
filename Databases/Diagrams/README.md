@@ -1,20 +1,25 @@
-# Data Dictionary  ![Data Dictionary](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+# Diagrams ![Diagrams](https://img.shields.io/badge/Microsoft_Visio-3955A3?style=for-the-badge&logo=microsoft-visio&logoColor=white)
 
-En esta sección de diccionario de datos describe todos los elementos de datos utilizados en el proyecto. Este recurso centraliza la definición de términos, estructuras y relaciones de datos para garantizar la consistencia y comprensión compartida dentro del equipo de desarrollo y con otras partes interesadas.
+
+En apartado de diagramas en la documentación del proyecto incluye representaciones visuales que ayudan a comprender la arquitectura, flujo de trabajo, relaciones entre componentes y otros aspectos clave del sistema o aplicación desarrollada. Estos diagramas proporcionan una visión estructurada y fácilmente comprensible de la solución técnica implementada.
+
+ 
+
 ## Estructura de Archivos
 
 >PillBox<br>
 >| - Backend <br>
 >| - Databases<br>
 >&nbsp;&nbsp;|- Backups<br>
->&nbsp;&nbsp;|- **Data Dictionary**<br>
->&nbsp;&nbsp;|- Diagrams<br>
+>&nbsp;&nbsp;|- Data Dictionary<br>
+>&nbsp;&nbsp;|- **Diagrams**<br>
 >&nbsp;&nbsp;|- Queries<br>
 >&nbsp;&nbsp;|- Scripts<br>
 >&nbsp;&nbsp;|- Triggers<br>
 >&nbsp;&nbsp;|- USPs<br>
 >| - Documentation<br>
 >| - FrontEnd
+
 
 
 ## Colaboradoes

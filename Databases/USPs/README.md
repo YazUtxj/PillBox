@@ -1,18 +1,22 @@
-# Data Dictionary  ![Data Dictionary](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+# USPs  
 
-En esta sección de diccionario de datos describe todos los elementos de datos utilizados en el proyecto. Este recurso centraliza la definición de términos, estructuras y relaciones de datos para garantizar la consistencia y comprensión compartida dentro del equipo de desarrollo y con otras partes interesadas.
+
+La sección "USPS" alberga documentación, configuraciones y recursos relacionados con la integración y uso de servicios proporcionados por el Servicio Postal de los Estados Unidos (USPS) dentro del proyecto. Esta carpeta centraliza toda la información necesaria para la gestión de envíos, seguimiento de paquetes, y cualquier otro servicio proporcionado por USPS que pueda ser utilizado en el contexto del proyecto.
+
+
+
 ## Estructura de Archivos
 
->PillBox<br>
+>IntegradoraI-InsA<br>
 >| - Backend <br>
 >| - Databases<br>
 >&nbsp;&nbsp;|- Backups<br>
->&nbsp;&nbsp;|- **Data Dictionary**<br>
+>&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- Queries<br>
 >&nbsp;&nbsp;|- Scripts<br>
 >&nbsp;&nbsp;|- Triggers<br>
->&nbsp;&nbsp;|- USPs<br>
+>&nbsp;&nbsp;|- **USPs**<br>
 >| - Documentation<br>
 >| - FrontEnd
 

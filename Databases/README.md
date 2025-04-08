@@ -7,7 +7,7 @@
 ## Estructura de Archivos
 
 >PillBox<br>
->| - BackEnd <br>
+>| - Backend <br>
 >**| - Databases**<br>
 >&nbsp;&nbsp;|- Backups<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
@@ -24,8 +24,8 @@
 
 | Nombre                        | Usuario             | Roles |
 |-------------------------------|---------------------|--------|
-|  Citlalli Pérez Dionicio |      [KouDionicio](https://github.com/KouDionicio)  |  Base de Datos ,BackEnd      |
-|  Diego Miguel Rivera Chavez | [DiegoMiguel04](https://github.com/DiegoMiguel04)       |  BackEnd, Iot , FronEnd     |
+|  Citlalli Pérez Dionicio |      [KouDionicio](https://github.com/KouDionicio)  |  Base de Datos ,Backend      |
+|  Diego Miguel Rivera Chavez | [DiegoMiguel04](https://github.com/DiegoMiguel04)       |  Backend, Iot , FronEnd     |
 |  Yazmin Gutierrez Hernandez | [YazUtxj](https://github.com/YazUtxj)            | Documentador , FronEnd,  Base de Datos   |
-|  Erick Matias Granillo Mejia | [Ematias230045](https://github.com/Ematias230045)            | Iot ,BackEnd     |
+|  Erick Matias Granillo Mejia | [Ematias230045](https://github.com/Ematias230045)            | Iot ,Backend     |
 |  Jennifer Bautista Barrios |[JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)            | FronEnd , Documentador      |
