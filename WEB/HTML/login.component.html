@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Iniciar Sesión</h2>
+      </div>
+  
+      <form class="form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label>Correo electrónico</label>
+          <input type="email" formControlName="email" placeholder="tu@email.com">
+        </div>
+  
+        <div class="form-group">
+          <label>Contraseña</label>
+          <input type="password" formControlName="password" placeholder="••••••••">
+        </div>
+  
+        <div class="form-options">
+          <label class="checkbox">
+            <input type="checkbox" formControlName="remember"> Recordarme
+          </label>
+          <a href="#" class="link">¿Olvidaste tu contraseña?</a>
+        </div>
+  
+        <button type="submit" class="btn-submit">Ingresar</button>
+  
+        <div class="register-text">
+          ¿No tienes cuenta?
+          <a href="register" class="link">Regístrate</a>
+        </div>
+  
+        <div class="separator">
+          <span>O ingresa con</span>
+        </div>
+  
+        <div class="social-buttons">
+          <!-- Icono de Facebook -->
+            <a href="#" class="social-icon">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            
+            <!-- Icono de Google -->
+            <a href="#" class="social-icon">
+                <i class="bx bxl-google"></i>
+            </a>
+            
+            <!-- Icono de GitHub -->
+            <a href="#" class="social-icon">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+      </form>
+    </div>
+    <app-login-pill class="login-pill"></app-login-pill>
+  </div>
+  

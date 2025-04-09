@@ -1,0 +1,77 @@
+<mat-toolbar color="primary" class="main-toolbar">
+  <!-- Menú móvil -->
+  <button mat-icon-button (click)="sidenav.toggle()" class="mobile-menu-button">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <!-- Logo y título -->
+  <div class="branding">
+    <mat-icon class="brand-icon">medication</mat-icon>
+    <span class="brand-text">PILLBOX</span>
+  </div>
+
+  <!-- Navegación desktop -->
+  <nav class="desktop-nav">
+    <a mat-button routerLink="home" routerLinkActive="active-link">
+      <mat-icon>home</mat-icon>
+      Inicio
+    </a>
+    <a mat-button routerLink="schedule" routerLinkActive="active-link">
+      <mat-icon>schedule</mat-icon>
+      Horario
+    </a>
+    <a mat-button routerLink="history" routerLinkActive="active-link">
+      <mat-icon>history</mat-icon>
+      Históricos
+    </a>
+  </nav>
+
+  <!-- Espacio restante -->
+  <span class="spacer"></span>
+
+  <!-- Controles de usuario -->
+  <div class="user-controls">
+    <app-button-theme></app-button-theme>
+    
+    <button mat-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>person</mat-icon>
+      Jennifer
+    </button>
+    
+    <mat-menu #userMenu="matMenu">
+      <button mat-menu-item routerLink="/profile">
+        <mat-icon>account_circle</mat-icon>
+        Perfil
+      </button>
+      <button mat-menu-item routerLink="/settings">
+        <mat-icon>settings</mat-icon>
+        Configuración
+      </button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+        Cerrar Sesión
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>
+
+<!-- Menú móvil -->
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over" position="start">
+    <div class="mobile-nav">
+      <a mat-button href="/pillbox/home">
+        <mat-icon>home</mat-icon>
+        Inicio
+      </a>
+      <a mat-button href="/pillbox/schedule" >
+        <mat-icon>schedule</mat-icon>
+        Horario
+      </a>
+      <a mat-button href="/pillbox/history">
+        <mat-icon>history</mat-icon>
+        Históricos
+      </a>
+    </div>
+  </mat-sidenav>
+</mat-sidenav-container>
