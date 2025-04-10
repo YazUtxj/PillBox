@@ -56,6 +56,10 @@ HydrateX está dirigido a:
 - Pacientes con enfermedades crónicas (diabetes, hipertensión, etc.) que necesitan un control preciso de su medicación.
 -	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
 -	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
+## Diagrama de Roles
+
+## Diagrama de Gantt 
+
 
 ## Colaboradoes
 
