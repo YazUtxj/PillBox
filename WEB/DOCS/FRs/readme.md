@@ -1,5 +1,6 @@
 # Requisitos Funcionales (FRs)
-![BRs](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![BRs](https://img.shields.io/badge/BRs-Requerimientos_del_negocio-6A1B9A?style=flat&logo=notion&logoColor=white)
+
 
 ## Descripción
 Este documento contiene los **Requisitos Funcionales (FRs)** del sistema **PILLBOX**. Aquí se detallan las funcionalidades que la aplicación web debe ofrecer para una gestión efectiva de medicamentos, interacción intuitiva y segura, e integración con los dispositivos IoT asociados. Cada requisito se define desde una perspectiva centrada en el usuario y en el cumplimiento de los objetivos globales del proyecto.
@@ -9,22 +10,22 @@ Este documento contiene los **Requisitos Funcionales (FRs)** del sistema **PILLB
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── BRs
-│   ├── **FRs**
-│   ├── GUI
-│   ├── NFRs
-│   ├── Support
-│   ├── UHs
-│   └── UserRoles
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **FRs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

@@ -1,27 +1,28 @@
 # Requisitos No Funcionales (NFRs)
-![BRs](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![NFRs](https://img.shields.io/badge/NFRs-Requerimientos_no_funcionales-FF6F00?style=flat&logo=apache&logoColor=white)
+
 
 ## Descripción
 En este documento se describen los **Requisitos No Funcionales (NFRs)** para el sistema **PILLBOX**. Estos criterios establecen estándares de calidad esenciales para garantizar una experiencia de usuario óptima, eficiencia, seguridad, confiabilidad y mantenibilidad. Además, se contemplan restricciones y características inherentes derivadas del alcance y limitaciones del prototipo, orientado a la validación técnica y funcional.
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── BRs
-│   ├── FRs
-│   ├── GUI
-│   ├── **NFRs**
-│   ├── Support
-│   ├── UHs
-│   └── UserRoles
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **NFRs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

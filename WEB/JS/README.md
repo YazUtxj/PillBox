@@ -1,5 +1,6 @@
 # JS
-![JS](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![JS](https://img.shields.io/badge/JS-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+
 
 ## Descripción
 El directorio **JS** contiene todos los scripts en JavaScript que definen la interactividad, el manejo de eventos y la lógica dinámica del prototipo **PILLBOX**. Aquí se gestionan desde funcionalidades globales hasta módulos específicos que permiten la coordinación con la interfaz (HTML) y el estilo (CSS), así como la integración con APIs y mecanismos de comunicación en tiempo real con el dispositivo IoT.
@@ -7,13 +8,16 @@ El directorio **JS** contiene todos los scripts en JavaScript que definen la int
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── DOCS
-├── HTML
-└── **JS**
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- **JS**<br>
 
 
 ## Integrantes del Proyecto

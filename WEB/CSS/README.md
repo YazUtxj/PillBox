@@ -1,18 +1,22 @@
 # CSS
-![CSS](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![CSS](https://img.shields.io/badge/Estilos-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
 
 ## Descripción
 El directorio **CSS** contiene todas las hojas de estilo utilizadas en el proyecto **PILLBOX** para definir y gestionar la apariencia visual e interacción de la interfaz de usuario. En este espacio se centralizan los estilos globales, componentes reutilizables y directrices de diseño que aseguran la coherencia visual en todas las secciones del prototipo.
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── **CSS**
-├── DOCS
-├── HTML
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- **CSS**<br>
+> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

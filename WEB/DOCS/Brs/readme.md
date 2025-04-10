@@ -1,5 +1,6 @@
 # Business Rules (BRs) 
-![BRs](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![BRs](https://img.shields.io/badge/Requerimientos-BRs-6A1B9A?style=flat&logo=bookstack&logoColor=white)
+
 
 ## Descripción  
 Este documento contiene las **Reglas de Negocio (BRs)** que gobiernan el funcionamiento del sistema **PILLBOX**, asegurando consistencia, seguridad y cumplimiento de los objetivos del proyecto.  
@@ -58,22 +59,22 @@ El archivo principal (`BRs_PILLBOX.docx`) se encuentra en la carpeta `DOCS/BRs` 
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── **BRs**
-│   ├── FRs
-│   ├── GUI
-│   ├── NFRs
-│   ├── Support
-│   ├── UHs
-│   └── UserRoles
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **BRs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

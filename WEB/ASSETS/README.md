@@ -1,18 +1,21 @@
 # Assets
-![Assets](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![Assets](https://img.shields.io/badge/Assets-Carpeta_de_recursos-4CAF50?style=flat&logo=adobe&logoColor=white)
 
 ## Descripción
 El directorio **ASSETS** contiene todos los recursos visuales, gráficos y multimedia utilizados en el proyecto **PILLBOX**. Aquí se encuentran imágenes, logos, íconos, mockups y otros elementos gráficos que complementan tanto la documentación como la interfaz y materiales promocionales del prototipo.
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── **ASSETS**
-├── CSS
-├── DOCS
-├── HTML
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- **ASSETS**<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

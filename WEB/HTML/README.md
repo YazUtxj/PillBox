@@ -1,18 +1,22 @@
 # HTML
-![HTML](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![HTML](https://img.shields.io/badge/HTML-Documentación_HTML-E34F26?style=flat&logo=html5&logoColor=white)
+
 
 ## Descripción
 El directorio **HTML** contiene la estructura y la maquetación de la interfaz del prototipo **PILLBOX**. Aquí se definen las páginas, secciones y componentes esenciales que conformarán la parte visual y accesible del sistema, utilizando elementos semánticos de HTML5 para garantizar una correcta organización y una experiencia de usuario óptima.
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── DOCS
-├── **HTML**
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;|- **HTML**<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

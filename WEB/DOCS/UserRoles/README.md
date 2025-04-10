@@ -1,5 +1,6 @@
 # Roles de Usuario (User Roles)
-![UserRoles](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![UserRoles](https://img.shields.io/badge/User_Roles-Roles_de_usuario-0288D1?style=flat&logo=auth0&logoColor=white)
+
 
 ## Descripción
 Este documento define los **Roles de Usuario** dentro del sistema **PILLBOX**. Se detalla cada perfil, sus responsabilidades, permisos y objetivos principales en el uso del prototipo. Este análisis es fundamental para garantizar que la interfaz y las funcionalidades estén alineadas con las necesidades de cada tipo de usuario y para establecer una correcta gestión de permisos y accesos.
@@ -8,22 +9,23 @@ Este documento define los **Roles de Usuario** dentro del sistema **PILLBOX**. S
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── BRs
-│   ├── FRs
-│   ├── GUI
-│   ├── NFRs
-│   ├── Support
-│   ├── UHs
-│   └── **UserRoles**
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- RFs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **UserRoles**<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

@@ -1,5 +1,6 @@
 # Requisitos Funcionales (RFs)
-![RFs](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![RFs](https://img.shields.io/badge/RFs-Requerimientos_funcionales-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+
 
 ## Descripción
 En este documento se describen los **Requisitos Funcionales (RFs)** para el sistema **PILLBOX**. Aquí se detallan las funcionalidades que el sistema debe ofrecer para garantizar una operación eficiente, segura y orientada al usuario. Los RFs abarcan la configuración, el manejo de alertas, la interacción con el usuario y la integración con dispositivos IoT, dándole soporte a la función principal del prototipo: el almacenamiento y dispensación automatizada de medicamentos.
@@ -8,23 +9,23 @@ En este documento se describen los **Requisitos Funcionales (RFs)** para el sist
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── BRs
-│   ├── FRs
-│   ├── GUI
-│   ├── NFRs
-│   ├── **RFs**
-│   ├── Support
-│   ├── UHs
-│   └── UserRoles
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **RFs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto

@@ -1,5 +1,6 @@
 # Historias de Usuario (UHs)
-![UHs](https://img.shields.io/badge/Documentación-Microsoft_Word-2B579A?style=flat&logo=microsoft-word)
+![UHs](https://img.shields.io/badge/UHs-Historias_de_usuario-8E24AA?style=flat&logo=jira&logoColor=white)
+
 
 ## Descripción
 Este documento recopila las **Historias de Usuario (UHs)** del sistema **PILLBOX**. Cada historia de usuario representa una funcionalidad o necesidad expresada desde la perspectiva del usuario final. Estas descripciones son esenciales para guiar el desarrollo del prototipo, asegurando que sus funcionalidades sean intuitivas, accesibles y alineadas con las expectativas reales de los usuarios.
@@ -8,22 +9,23 @@ Este documento recopila las **Historias de Usuario (UHs)** del sistema **PILLBOX
 
 ## Estructura de Carpetas del Proyecto
 
-Proyecto
-│
-├── ASSETS
-├── CSS
-├── **DOCS**
-│   ├── BRs
-│   ├── FRs
-│   ├── GUI
-│   ├── NFRs
-│   ├── Support
-│   ├── **UHs**
-│   └── UserRoles
-│
-├── HTML
-│
-└── JS
+>PillBox<br>
+>| - Backend <br>
+>| - Databases<br>
+>| - Documentation<br>
+>| - **FrontEnd** <br>
+> &nbsp;&nbsp;|- ASSETS<br>
+> &nbsp;&nbsp;|- CSS<br>
+> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- RFs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **UHs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
+> &nbsp;&nbsp;|- JS<br>
 
 
 ## Integrantes del Proyecto
