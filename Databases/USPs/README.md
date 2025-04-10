@@ -11,12 +11,10 @@ Esta carpeta contiene los archivos necesarios para la conexión, esquemas, confi
 >PillBox<br>
 >| - Backend <br>
 >| - Databases<br>
->&nbsp;&nbsp;|- Backups <br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- Queries<br>  
->&nbsp;&nbsp;|- Scripts<br>
->&nbsp;&nbsp;|- Triggers<br>
+>&nbsp;&nbsp;|- Swagger<br>
 >&nbsp;&nbsp;|- **USPs**<br>
 >| - Documentation<br>
 >| - FrontEnd<br>

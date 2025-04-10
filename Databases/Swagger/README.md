@@ -1,15 +1,26 @@
-# Data Dictionary  ![Data Dictionary](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+# Swagger ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-En esta sección de diccionario de datos describe todos los elementos de datos utilizados en el proyecto. Este recurso centraliza la definición de términos, estructuras y relaciones de datos para garantizar la consistencia y comprensión compartida dentro del equipo de desarrollo y con otras partes interesadas.
+La sección **Swagger** documenta las rutas de la API REST utilizadas en este proyecto, facilitando la comprensión y el consumo de los servicios disponibles. Gracias a la integración con `swagger-jsdoc` y `swagger-ui-express`, se genera automáticamente una documentación interactiva accesible desde el navegador.
+
+Esta carpeta contiene la configuración de Swagger, así como los comentarios necesarios para generar la especificación OpenAPI a partir del código.
+
+## Acceso a la documentación
+
+Una vez que el servidor esté en ejecución, puedes acceder a la documentación Swagger en la siguiente URL:
+
+
+
+
+
 ## Estructura de Archivos
 
 >PillBox<br>
 >| - Backend <br>
 >| - Databases<br>
->&nbsp;&nbsp;|- **Data Dictionary**<br>
+>&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
->&nbsp;&nbsp;|- Queries<br>
->&nbsp;&nbsp;|- Swagger<br>
+>&nbsp;&nbsp;|- Queries<br>  
+>&nbsp;&nbsp;|- **Swagger**<br>
 >&nbsp;&nbsp;|- USPs<br>
 >| - Documentation<br>
 >| - FrontEnd<br>
