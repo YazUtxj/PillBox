@@ -57,7 +57,7 @@ HydrateX está dirigido a:
 -	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
 -	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
 
-## Colaboradoes
+## Colaboradores
 
 | Nombre                        | Usuario             | Roles |
 |-------------------------------|---------------------|--------|
