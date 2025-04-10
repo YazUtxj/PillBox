@@ -4,7 +4,7 @@ La GUI es la interfaz visual que permite a los usuarios interactuar con el softw
 
 ## Estructura de Archivos
 
->Proyecto Iot<br>
+>PillBox<br>
 >| - Backend <br>
 >| - Database<br>
 >| - **Documentation**<br>
@@ -13,7 +13,6 @@ La GUI es la interfaz visual que permite a los usuarios interactuar con el softw
 > &nbsp;&nbsp;|- **GUI**<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Mockups<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Prototype<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;|- SisteMap<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Sketches<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Wireframes<br>
 > &nbsp;&nbsp;|- Installation<br>
@@ -22,10 +21,7 @@ La GUI es la interfaz visual que permite a los usuarios interactuar con el softw
 > &nbsp;&nbsp;|- UHs<br>
 > &nbsp;&nbsp;|- UserManual<br>
 >| - FrontEnd <br>
-
-
-## Colaboradores
-
+>| - Iot <br>
 
 
 ## Colaboradores
@@ -33,6 +29,6 @@ La GUI es la interfaz visual que permite a los usuarios interactuar con el softw
 |------------|--------|---|---|
 |Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de   Datos||
 |Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd| |
-|Citlalli Dionicio Cabrera|[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
+|Citlalli Perez Dionicio |[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
 |Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend| |
 |Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador| |

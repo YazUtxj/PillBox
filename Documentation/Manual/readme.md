@@ -3,7 +3,7 @@
 Un manual es un documento que proporciona instrucciones detalladas y orientación sobre cómo utilizar, configurar o mantener un software o sistema.
 ## Estructura de Archivos
 
->Proyecto IOT<br>
+>PillBox<br>
 >| - Backend <br>
 >| - Database<br>
 >| - **Documentation**<br>
@@ -21,13 +21,13 @@ Un manual es un documento que proporciona instrucciones detalladas y orientació
 > &nbsp;&nbsp;|- UHs<br>
 > &nbsp;&nbsp;|- UserManual<br>
 >| - FrontEnd <br>
-
+>| - Iot <br>
 ## Colaboradores
 
 |Integrante|Contacto|Rol|Observaciones|
 |------------|--------|---|---|
 |Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos||
 |Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd| |
-|Citlalli Dionicio Cabrera|[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
+|Citlalli Perez Dionicio|[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
 |Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend| |
 |Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador| |

@@ -7,12 +7,10 @@ Las reglas de negocio de PillBox están diseñadas para:
 5.	**Reabastecimiento Manual**: El usuario será responsable de recargar el pastillero con los medicamentos necesarios.  <br>
 6.	**Dependencia de Conectividad**: La sincronización con la aplicación móvil y el dashboard web dependerá de una conexión a Internet estable.  <br>
 7.	**Compatibilidad Limitada**: El dispositivo solo funcionará con pastillas o cápsulas de tamaño estándar.  <br>
-8.	**Personalización de Configuración**: El usuario podrá personalizar las alertas y horarios de administración de medicamentos.  <br>
-
-
+8.	**Personalización de Configuración**: El usuario podrá personalizar las alertas y horarios de administración de medicamentos. <br>
 ## Estructura de Archivos
 
->Proyecto<br>
+>PillBox<br>
 >| - Backend <br>
 >| - Database<br>
 >| - **Documentation**<br>
@@ -21,7 +19,6 @@ Las reglas de negocio de PillBox están diseñadas para:
 > &nbsp;&nbsp;|- GUI<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Mockups<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Prototype<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;|- SisteMap<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Sketches<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Wireframes<br>
 > &nbsp;&nbsp;|- Installation<br>
@@ -30,12 +27,13 @@ Las reglas de negocio de PillBox están diseñadas para:
 > &nbsp;&nbsp;|- UHs<br>
 > &nbsp;&nbsp;|- UserManual<br>
 >| - FrontEnd <br>
+>| - Iot<br>
 
 
 |Integrante|Contacto|Rol|Observaciones|
 |------------|--------|---|---|
 |Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos||
 |Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd| |
-|Citlalli Dionicio Cabrera|[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
+|Citlalli Perez Dionicio|[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
 |Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend| |
 |Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador| |
