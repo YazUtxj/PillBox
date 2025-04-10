@@ -1,35 +1,19 @@
 # BRs (Business Rules) ![BRs](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
+Las reglas de negocio de PillBox están diseñadas para:
+1.	**Dispensación Programada**: El sistema solo dispensará medicamentos en los horarios programados previamente por el usuario. <br>
+2.	**Autenticación y Seguridad**: Solo usuarios autorizados  (en este caso serán usuarios registrados) podrán configurar y modificar los horarios de administración de medicamentos.  <br>
+3.	**Registro de Administración**: Se registrará cada evento de dispensación de medicamento para permitir su consulta en el historial.  <br>
+4.	**Notificaciones y Alertas**: Se enviarán alertas visuales y sonoras al usuario en el momento indicado para la toma del medicamento mediante componentes IOT.  <br>
+5.	**Reabastecimiento Manual**: El usuario será responsable de recargar el pastillero con los medicamentos necesarios.  <br>
+6.	**Dependencia de Conectividad**: La sincronización con la aplicación móvil y el dashboard web dependerá de una conexión a Internet estable.  <br>
+7.	**Compatibilidad Limitada**: El dispositivo solo funcionará con pastillas o cápsulas de tamaño estándar.  <br>
+8.	**Personalización de Configuración**: El usuario podrá personalizar las alertas y horarios de administración de medicamentos.  <br>
 
 
-Las reglas de negocio de ------- están diseñadas para:
-
-<!-- 1. **Eficiencia y Precisión en el Reporte de Incidentes:**
-
- - Permitir a los ciudadanos reportar problemas relacionados con el agua de manera sencilla y precisa.
- - Asegurar que los datos reportados sean validados y utilizados para tomar decisiones informadas.
-   
-2. **Gestión de Acceso y Roles de Usuario:**
-
-- Definir claramente los diferentes roles de usuario (ciudadanos, administradores, autoridades) y sus respectivos permisos y responsabilidades.
-- Asegurar que cada usuario tenga acceso solo a la información y funcionalidades relevantes para su rol.
-
-3. **Seguridad y Privacidad de la Información:**
-
-- Proteger los datos personales y sensibles de los usuarios mediante protocolos de seguridad robustos.
-- Usar los datos recopilados únicamente para mejorar la gestión de los recursos hídricos y la planificación estratégica.
-
-4. **Transparencia y Responsabilidad:**
-
-- Mantener un sistema transparente donde los usuarios puedan ver el estado de sus reportes y las acciones tomadas.
-- Fomentar la responsabilidad entre las autoridades locales y los ciudadanos para una mejor gestión del agua.
-
-**Estas reglas de negocio son fundamentales para el éxito de AQUA-VIDA, asegurando que la plataforma no solo cumpla con su propósito, sino que también se mantenga confiable, segura y útil para todos los usuarios involucrados.** -->
 ## Estructura de Archivos
 
 >Proyecto<br>
 >| - Backend <br>
->| - PHP<br>
->| - DB_Connection<br>
 >| - Database<br>
 >| - **Documentation**<br>
 > &nbsp;&nbsp;|- **BRs**<br>

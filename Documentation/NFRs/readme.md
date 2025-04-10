@@ -1,5 +1,21 @@
 # NFRs (NFRs - Not Functional Requeriments)![Requerimentos no funcionales](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
 
+1.	Usabilidad:
+	- &nbsp;Interfaz intuitiva y accesible para personas con discapacidad visual o cognitiva.
+2.	Rendimiento:
+	- &nbsp;Respuesta rápida en la ejecución de alertas y sincronización de datos.
+3.	Seguridad:
+	- &nbsp;Cifrado de datos de usuario y control de acceso mediante autenticación.
+4.	Escalabilidad:
+	- &nbsp;Posibilidad de expansión del sistema para múltiples usuarios y dispositivos.
+5.	Fiabilidad:
+	- &nbsp;El sistema debe garantizar la dispensación precisa y oportuna de los medicamentos.
+6.	Compatibilidad:
+	- &nbsp;Funcionalidad en dispositivos Android, iOS y navegadores web modernos.
+7.	Disponibilidad:
+	- &nbsp;El sistema debe estar disponible 24/7 con un tiempo de inactividad mínimo.
+
+
 
 ## Estructura de Archivos
 

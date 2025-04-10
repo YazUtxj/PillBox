@@ -24,7 +24,6 @@ Un manual es un documento que proporciona instrucciones detalladas y orientació
 
 ## Colaboradores
 
-
 |Integrante|Contacto|Rol|Observaciones|
 |------------|--------|---|---|
 |Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos||
