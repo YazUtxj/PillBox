@@ -1,4 +1,4 @@
-# USPs  
+# USPs ![Code](https://img.shields.io/badge/USPs-000000?style=for-the-badge&logo=codeforces&logoColor=white)
 
 La sección **MongoDB** en la documentación del proyecto alberga información detallada sobre la integración, configuración y uso de MongoDB dentro del sistema. Aquí se centralizan los recursos necesarios para la gestión de bases de datos, estructuras de datos y consultas que permiten almacenar, recuperar y manipular la información dentro del proyecto. MongoDB es utilizado como base de datos NoSQL debido a su flexibilidad y escalabilidad.
 
