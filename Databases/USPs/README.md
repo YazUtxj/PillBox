@@ -1,19 +1,20 @@
 # USPs  
 
+La sección **MongoDB** en la documentación del proyecto alberga información detallada sobre la integración, configuración y uso de MongoDB dentro del sistema. Aquí se centralizan los recursos necesarios para la gestión de bases de datos, estructuras de datos y consultas que permiten almacenar, recuperar y manipular la información dentro del proyecto. MongoDB es utilizado como base de datos NoSQL debido a su flexibilidad y escalabilidad.
 
-La sección "USPS" alberga documentación, configuraciones y recursos relacionados con la integración y uso de servicios proporcionados por el Servicio Postal de los Estados Unidos (USPS) dentro del proyecto. Esta carpeta centraliza toda la información necesaria para la gestión de envíos, seguimiento de paquetes, y cualquier otro servicio proporcionado por USPS que pueda ser utilizado en el contexto del proyecto.
+Esta carpeta contiene los archivos necesarios para la conexión, esquemas, configuraciones y ejemplos prácticos de uso de MongoDB en el contexto del proyecto.
 
 
 
 ## Estructura de Archivos
 
->IntegradoraI-InsA<br>
+>PillBox<br>
 >| - Backend <br>
 >| - Databases<br>
->&nbsp;&nbsp;|- Backups<br>
+>&nbsp;&nbsp;|- Backups <br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
->&nbsp;&nbsp;|- Queries<br>
+>&nbsp;&nbsp;|- Queries<br>  
 >&nbsp;&nbsp;|- Scripts<br>
 >&nbsp;&nbsp;|- Triggers<br>
 >&nbsp;&nbsp;|- **USPs**<br>

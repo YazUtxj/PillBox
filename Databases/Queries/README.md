@@ -10,7 +10,7 @@ En el apartado de **Consultas** en la documentación del proyecto, se describen 
 >&nbsp;&nbsp;|- Backups <br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
->&nbsp;&nbsp;|- **Queries**<br>  <!-- Aquí se podría añadir que este directorio contiene las consultas definidas para las funcionalidades de backend -->
+>&nbsp;&nbsp;|- **Queries**<br>  
 >&nbsp;&nbsp;|- Scripts<br>
 >&nbsp;&nbsp;|- Triggers<br>
 >&nbsp;&nbsp;|- USPs<br>

@@ -29,7 +29,7 @@ En el apartado de **Diagramas** en la documentación del proyecto se incluyen re
 >| - Databases<br>
 >&nbsp;&nbsp;|- Backups<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
->&nbsp;&nbsp;|- **Diagrams**<br> <!-- Contiene todos los diagramas que describen la arquitectura y flujo del sistema -->
+>&nbsp;&nbsp;|- **Diagrams**<br>
 >&nbsp;&nbsp;|- Queries<br>
 >&nbsp;&nbsp;|- Scripts<br>
 >&nbsp;&nbsp;|- Triggers<br>
