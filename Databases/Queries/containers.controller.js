@@ -1,3 +1,5 @@
+// Consultas que gestionan los contenedores de medicamentos (editar, eliminar, obtener).
+
 //? Obtener todos los contenedores de un usuario
 db.containers.find({ owner: ObjectId("ID_USUARIO") })
 

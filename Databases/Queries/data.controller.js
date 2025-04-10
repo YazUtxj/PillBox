@@ -1,3 +1,5 @@
+// Consultas para manejar los registros de datos DHT (temperatura y humedad) y las tomas de medicamentos asociadas a los usuarios.
+
 //? Obtener todos los registros DHT de un usuario
 db.dhtdatas.find({ user_id: ObjectId("ID_USUARIO") }).sort({ date_register: -1 })
 

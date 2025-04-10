@@ -1,3 +1,5 @@
+// Consultas relacionadas con el registro, inicio de sesión y verificación de usuarios.
+
 
 //? Verificar si un email ya está registrado
 db.users.findOne({ email: "usuario@ejemplo.com" })

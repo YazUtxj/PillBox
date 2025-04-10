@@ -18,18 +18,6 @@ En el apartado de **Consultas** en la documentación del proyecto, se describen 
 >| - FrontEnd<br>
 >| - IoT
 
-## Consultas por Controlador
-
-A continuación se detallan las consultas asociadas a los controladores del sistema:
-
-### **auth.controller.js**:
-- Consultas relacionadas con el registro, inicio de sesión y verificación de usuarios.
-
-### **containers.controller.js**:
-- Consultas que gestionan los contenedores de medicamentos (editar, eliminar, obtener).
-
-### **data.controller.js**:
-- Consultas para manejar los registros de datos DHT (temperatura y humedad) y las tomas de medicamentos asociadas a los usuarios.
 
 ## Colaboradores
 
