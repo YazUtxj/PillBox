@@ -1,0 +1,110 @@
+<div *ngIf="((containers$ | async) || []).length > 0; else loading">
+  <main class="dashboard">
+    <!-- Sección de Bienvenida -->
+    <section class="dashboard__welcome">
+      <div class="welcome-card">
+        <div class="welcome-content">
+          <h1 class="welcome-title">¡Bienvenido de vuelta!</h1>
+          <p class="welcome-subtitle">
+            <span class="pill-badge">{{ user.containers.length }}</span>
+            horarios programados para hoy
+          </p>
+        </div>
+        <div class="pill-visual">
+          <div class="pill-item" *ngFor="let pill of [1,2,3]"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Listado de Medicamentos -->
+    <section class="dashboard__medications">
+      <h2 class="section-heading">
+        <i class="material-icons">medication</i>
+        Próximos Medicamentos
+      </h2>
+      
+      <div class="medication-grid">
+        <article *ngFor="let med of containers$ | async" class="medication-card" 
+                 [class.expiring]="med.hours > 75">
+          <div class="card-header">
+            <div class="medication-meta">
+              <i class="material-icons">medical_services</i>
+              <h3 class="medication-name">{{ med.name_container }}</h3>
+            </div>
+            <button class="icon-button" (click)="openModal(med)">
+              <i class="material-icons">edit</i>
+            </button>
+          </div>
+
+          <div class="card-details">
+            <div class="time-display">
+              <i class="material-icons">schedule</i>
+              <span class="time-text">{{ med.init_time }}</span>
+            </div>
+            
+            <div class="progress-container">
+              <div class="progress-labels">
+                <span>Progreso</span>
+                <span>{{ med.hours }}%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" [style.width.%]="med.hours"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Modal de Configuración -->
+    <div class="config-modal" [class.active]="showModal && selectedContainer">
+      <div class="modal-content" *ngIf="selectedContainer">
+        <header class="modal-header">
+          <h3 class="modal-title">
+            <i class="material-icons">settings</i>
+            Configurar {{ selectedContainer.name_container }}
+          </h3>
+          <button class="modal-close" (click)="closeModal()">
+            <i class="material-icons">close</i>
+          </button>
+        </header>
+
+        <form class="modal-form" (ngSubmit)="saveChanges()">
+          <div class="form-group">
+            <label class="input-label">
+              <i class="material-icons">access_time</i>
+              Hora de Inicio
+            </label>
+            <input type="time" class="time-input" 
+                   [(ngModel)]="selectedContainer.init_time" 
+                   name="init_time" required>
+          </div>
+
+          <div class="form-group">
+            <label class="input-label">
+              <i class="material-icons">calendar_today</i>
+              Duración del tratamiento
+            </label>
+            <select class="duration-select" 
+                    [(ngModel)]="selectedContainer.days" 
+                    name="days" required>
+              <option *ngFor="let day of days" [value]="day">
+                {{ day }} día{{ day > 1 ? 's' : '' }}
+              </option>
+            </select>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn--secondary" 
+                    (click)="closeModal()">Cancelar</button>
+            <button type="submit" class="btn btn--primary">Guardar Cambios</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+
+<ng-template #loading>
+  <p class="loading-text">Cargando medicamentos...</p>
+</ng-template>
