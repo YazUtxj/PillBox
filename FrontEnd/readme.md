@@ -8,13 +8,12 @@ El frontend de **PILLBOX** proporciona la interfaz de usuario para la plataforma
 Ambas versiones se comunican con el backend mediante una API REST, asegurando sincronización en tiempo real y una experiencia de usuario intuitiva.  
 
 ##  Repositorios  
-
 <div align="center">
 
 | Plataforma | Tecnología | Repositorio |
 |------------|-------------|----------------------------------|
-| **Web**    | Angular     | 🔗 [Ver en GitHub](AQUI_PON_EL_LINK_DEL_REPO_WEB)  |
-| **Móvil**  | React Native | 🔗 [Ver en GitHub](AQUI_PON_EL_LINK_DEL_REPO_MOVIL)  |
+| **Web**    | Angular     | 🔗 [Ver en GitHub]( https://github.com/JenniferBautistaBarrios/Pillbox-FrontEnd-Web)  |
+| **Móvil**  | React Native | 🔗 [Ver en GitHub](https://github.com/DiegoMiguel04/Pillbox-API)  |
 
 </div>
 

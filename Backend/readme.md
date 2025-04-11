@@ -2,7 +2,7 @@
 
 En esta sección se encuentran los archivos de código fuente que proporcionan la funcionalidad operativa a la aplicación web. Incluye la conexión y configuración de la Base de Datos No Relacional (**MongoDB**) para la persistencia de los datos recolectados.  
 
-🔗 **Repositorio del Backend**: [Ver en GitHub](AQUI_PON_EL_LINK_DEL_REPO)
+🔗 **Repositorio del Backend**: [Ver en GitHub](https://github.com/DiegoMiguel04/Pillbox-API)
 
 ## Estructura de Archivos  
 

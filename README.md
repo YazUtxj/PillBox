@@ -1,55 +1,54 @@
+<p align="center">
+  <h1 align="center">Proyecto PillBox</h1>
+</p>
 
-# Proyecto PillBox
 <table>
    <td>Logo de la Aplicacion</td>
    <td>Logo de empresa</td>
   <tr>
-    <td>  <img src="LogoPillbox.png" width="80%" style="padding: 10px;" />  </td>
-    <td>   <img src="meditech_empresa.png" width="80%" style="padding: 10px;" /> </td> 
+    <td>  <img src="/Documentation/GUI/Assets/LogoPillbox.png" width="80%" style="padding: 10px;" />  </td>
+    <td>   <img src="/Documentation/GUI/Assets/meditech_empresa.png" width="80%" style="padding: 10px;" /> </td> 
   </tr>
 </table>
 
 ## ¿Qué es?
 <p align="justify">
-PillBox es un pastillero inteligente  integrado a una botella con tecnología IoT diseñado para ayudar a las personas a gestionar su medicación de manera eficiente. Está equipado con sensores y conectividad que permiten registrar y controlar la administración de medicamentos. Su integración con una aplicación móvil y una plataforma web facilita el acceso a datos en tiempo real, recordatorios y alertas personalizadas para mejorar la adherencia al tratamiento.
+PillBox es un pastillero inteligente integrado a una botella con tecnología IoT. Ayuda a gestionar la medicación con sensores, recordatorios y conectividad a una app móvil y web, permitiendo el monitoreo en tiempo real.
 </p>
 
 ## ¿Para qué sirve?
 
 <p align="justify">
-PillBox tiene como objetivo mejorar la salud y calidad de vida de los usuarios al garantizar que tomen sus medicamentos en el momento adecuado. Proporciona alertas visuales y sonoras para recordar la ingesta de medicamentos, permite a los cuidadores y familiares monitorear el cumplimiento del tratamiento y ofrece información detallada sobre el consumo de medicamentos a través de la aplicación móvil y la plataforma web.
+Facilita la adherencia al tratamiento mediante alertas visuales y sonoras. Permite a usuarios y cuidadores monitorear la toma de medicamentos y consultar el historial de consumo en la app.
 </p>
 
 ## Problemática
 
 <p align="justify">
-Muchas personas olvidan tomar sus medicamentos o tienen dificultades para organizar su tratamiento, lo que puede afectar negativamente su salud y reducir la efectividad del mismo. Este problema es especialmente crítico en adultos mayores y pacientes con enfermedades crónicas, quienes requieren un control preciso de su medicación. PillBox aborda esta problemática ofreciendo una solución tecnológica que facilita el monitoreo y la adherencia al tratamiento mediante recordatorios inteligentes, alertas y acceso remoto para cuidadores y familiares.
+Muchas personas olvidan tomar sus medicamentos, lo que afecta su salud. PillBox soluciona esto con recordatorios inteligentes, monitoreo remoto y control preciso para adultos mayores y pacientes crónicos.
 </p>
 
 ## Objetivo General (Solucion)
 
 <p align="justify">
-Desarrollar un prototipo de pastillero integrado a una botella y vinculado a una aplicación multiplataforma que enviara alertas visuales y sonoras, con la finalidad de mejorar la accesibilidad al medicamento y que a su vez sirva como ayuda para recordar los horarios de acuerdo con el tratamiento médico.
+Desarrollar un prototipo de pastillero inteligente integrado a una botella y vinculado a una app multiplataforma, mejorando el acceso y cumplimiento del tratamiento médico.
 </p>
 
 ## Objetivos Específicos
 
 <p align="justify">
 
-- Analizar y definir los elementos de hardware y software para la elaboración del proyecto.
--	Realizar el diseño del prototipo del proyecto.
--	Realizar la maquetación de la estructura del proyecto.
--	Realizar el desarrollo de software del proyecto.
--	Realizar y vincular la base de datos del proyecto.
--	Realizar pruebas de funcionalidad del proyecto y documentarlas de ser necesario.
--	Implementar mejoras al proyecto en caso de ser necesario.
-
+- Definir hardware y software del proyecto.
+- Diseñar y maquetar el prototipo.
+- Desarrollar software y base de datos.
+- Realizar pruebas y documentarlas.
+- Implementar mejoras según sea necesario.
 </p>
 
 ## ¿A qué público va dirigido?
 
 <p align="justify">
-HydrateX está dirigido a:
+PillBox está dirigido a:
 </p>
 
 -	Personas mayores que requieren apoyo para la administración de sus medicamentos sin depender de aplicaciones complejas.
@@ -57,8 +56,26 @@ HydrateX está dirigido a:
 -	Cuidadores y familiares que desean monitorear a distancia el cumplimiento del tratamiento de sus seres queridos.
 -	Personas en general que desean mejorar el seguimiento y la adherencia a sus tratamientos médicos, asegurando una correcta administración de medicamentos.
 
-## Colaboradoes
+## Diagrama de Trabajo y Roles
 
+| Diagrama de Roles | Diagrama de Gantt |
+|-------------------|------------------|
+| ![Diagrama de Roles](/Documentation/GUI/Assets/image.png) | ![Diagrama de Gantt](/Documentation/GUI/Assets/image%20copy.png) |
+
+
+## Tecnologias Usadas
+
+
+| **Área**                    | **Tecnologías**                                                                                             |
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| **Frontend (Cliente)**      | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+**Backend (Servidor)**      | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4D1F1A?style=for-the-badge&logo=mongodb&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
+| **IoT (Internet de las Cosas)** | ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white) |
+| **Control de Versiones**    | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)       |
+
+
+
+## Colaboradores
 | Nombre                        | Usuario             | Roles |
 |-------------------------------|---------------------|--------|
 | Yazmin Gutierrez Hernandez  | [YazUtxj](https://github.com/YazUtxj)        | Documentador , FronEnd,  Base de Datos       |
@@ -66,3 +83,5 @@ HydrateX está dirigido a:
 | Citlalli Pérez Dionicio         | [KouDionicio](https://github.com/KouDionicio)             |  Base de Datos ,Backend     |
 |  Erick Matias Granillo Mejia           | [Ematias230045](https://github.com/Ematias230045)            | Iot ,Backend     |
 | Jennifer Bautista Barrios           |[JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)            | FronEnd , Documentador      |
+
+
