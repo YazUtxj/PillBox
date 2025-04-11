@@ -1,0 +1,83 @@
+.main-toolbar {
+  display: flex;
+  justify-content: space-between;
+
+
+  .branding {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    
+    .brand-icon {
+      margin-right: 0.5rem;
+    }
+    
+    .brand-text {
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+  }
+
+  .desktop-nav {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  .user-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .mobile-menu-button {
+    display: none;
+  }
+
+  .active-link {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid white;
+  }
+
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none;
+    }
+
+    .mobile-menu-button {
+      display: block;
+      margin-right: 1rem;
+    }
+
+    .branding {
+      margin-right: 0;
+    }
+  }
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 250px;
+  
+  a {
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

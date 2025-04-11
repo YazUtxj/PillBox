@@ -1,0 +1,136 @@
+/* Contenedor general */
+.container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  /* Tarjeta principal */
+  .card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Encabezado de la tarjeta */
+  .card-header {
+    background: linear-gradient(to right, #065fd4, #0694d8, #05e1ec);
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos del formulario */
+  .form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Grupos de formulario */
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #374151;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #0694d8;
+    outline: none;
+    box-shadow: 0 0 0 2px #bae6fd;
+  }
+  
+  /* Opciones del formulario (checkbox y enlace de recuperación) */
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .checkbox input {
+    margin-right: 0.5rem;
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    text-decoration: none;
+  }
+  
+  .link {
+    color: #0694d8;
+    transition: color 0.2s;
+  }
+  
+  .link:hover {
+    color: #048abf;
+  }
+  
+  /* Botón de envío */
+  .btn-submit {
+    width: 100%;
+    background: linear-gradient(to right, #065fd4, #05e1ec);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    opacity: 0.9;
+  }
+  
+  /* Texto de registro o login */
+  .register-text {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  /* Separador para opciones adicionales */
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 1.5rem;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #d1d5db;
+  }
+  
+  .separator span {
+    padding: 0 0.5rem;
+    background-color: white;
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  

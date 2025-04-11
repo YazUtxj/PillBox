@@ -1,0 +1,273 @@
+<!-- Encabezado de la Página -->
+<header>
+  <mat-toolbar color="primary" class="mat-elevation-z6" role="banner">
+    <img class="brand-logo" src="logo.png" alt="Logo de la Marca">
+    <span class="spacer"></span>
+    <nav aria-label="Menú principal">
+      <button mat-button routerLink="/register" class="nav-link">Registro</button>
+      <button mat-button routerLink="/login" class="nav-link">Login</button>
+    </nav>
+  </mat-toolbar>
+</header>
+
+<!-- Contenido Principal -->
+<main>
+  <section class="hero mat-elevation-z3" aria-label="Presentación de PillBox">
+    <div class="hero-content">
+      <h1 class="mat-display-2">PILLBOX - Tu Asistente Médico Inteligente</h1>
+      <p class="mat-headline">Tecnología innovadora para el control preciso de medicación</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <mat-icon aria-hidden="true">access_time</mat-icon>
+          <h3>+95%</h3>
+          <p>Adherencia al tratamiento</p>
+        </div>
+        <div class="stat-item">
+          <mat-icon aria-hidden="true">elderly</mat-icon>
+          <h3>100%</h3>
+          <p>Accesible para adultos mayores</p>
+        </div>
+        <div class="stat-item">
+          <mat-icon aria-hidden="true">notifications</mat-icon>
+          <h3>3 tipos</h3>
+          <p>Alertas simultáneas</p>
+        </div>
+      </div>
+      <button mat-raised-button class="cta-button">Más Información</button>
+    </div>
+    <div class="carousel" aria-label="Galería de productos">
+      <div *ngFor="let bottle of bottles; let i = index"
+           class="carousel-item"
+           #bottleEl
+           (mouseover)="onMouseOver(i)"
+           (mouseleave)="onMouseLeave(i)">
+        <ng-container [ngSwitch]="bottle">
+          <app-bottle3d *ngSwitchCase="'default'"></app-bottle3d>
+          <app-bottle3d-white *ngSwitchCase="'white'"></app-bottle3d-white>
+          <app-bottle3d-black *ngSwitchCase="'black'"></app-bottle3d-black>
+          <app-bottle3d-blue-white *ngSwitchCase="'blue-white'"></app-bottle3d-blue-white>
+          <app-bottle3d-white-blue *ngSwitchCase="'white-blue'"></app-bottle3d-white-blue>
+        </ng-container>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section problem-section" aria-labelledby="problema-title">
+    <div class="problem-card">
+      <header class="problem-card-header">
+        <h2 class="problem-title">El Problema</h2>
+      </header>
+      <div class="problem-content">
+        <p>Más del 50% de las personas olvidan su medicación...</p>
+        <img src="assets/enfermo.png" alt="Persona enferma">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Sección Solución -->
+  <section class="section alt solution-section" aria-labelledby="solucion-title">
+    <div class="solution-container">
+      <h2 id="solucion-title">La Solución</h2>
+      <mat-divider></mat-divider>
+      <div class="solution-content">
+        <p class="mat-body-1">PillBox envía recordatorios a los usuarios para asegurar que tomen la dosis correcta en el momento indicado.</p>
+        <mat-icon class="solution-icon" aria-hidden="true">notifications_active</mat-icon>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Cómo Funciona -->
+  <section class="section how-it-works mat-elevation-z2" aria-labelledby="como-funciona-title">
+    <div class="section-header">
+      <span class="section-icon material-icons">medical_services</span>
+      <h2 id="como-funciona-title" class="section-title">¿Cómo Funciona PillBox?</h2>
+    </div>
+    <hr class="divider-accent">
+    <ul class="pillbox-features-list">
+      <li class="feature-item" *ngFor="let feature of features">
+        <div class="feature-icon-container">
+          <span class="feature-icon material-icons">check_circle</span>
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">{{ feature.title }}</h3>
+          <p class="feature-description">{{ feature.description }}</p>
+        </div>
+      </li>
+    </ul>
+  
+    <div class="integration-graphic">
+      <div class="integration-step">
+        <mat-icon class="step-icon">schedule</mat-icon>
+        <p class="mat-caption">1. Programa tus horarios</p>
+      </div>
+      <mat-icon class="arrow-icon">arrow_forward</mat-icon>
+      <div class="integration-step">
+        <mat-icon class="step-icon">notifications</mat-icon>
+        <p class="mat-caption">2. Recibe alertas inteligentes</p>
+      </div>
+      <mat-icon class="arrow-icon">arrow_forward</mat-icon>
+      <div class="integration-step">
+        <mat-icon class="step-icon">verified_user</mat-icon>
+        <p class="mat-caption">3. Confirma la toma</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="benefits-section" aria-labelledby="beneficios-title">
+    <h2 id="beneficios-title" class="section-title">Beneficios Exclusivos</h2>
+    <hr class="divider-accent">
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-card-header">
+          <span class="benefit-icon material-icons" aria-hidden="true">security</span>
+          <h3 class="benefit-title">Dispensación Controlada</h3>
+        </div>
+        <div class="benefit-card-content">
+          <p>Sistema automatizado que entrega la dosis exacta en el momento programado.</p>
+        </div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-card-header">
+          <span class="benefit-icon material-icons" aria-hidden="true">cloud_sync</span>
+          <h3 class="benefit-title">Conectividad IoT</h3>
+        </div>
+        <div class="benefit-card-content">
+          <p>Sincronización en tiempo real con aplicación móvil y plataforma web.</p>
+        </div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-card-header">
+          <span class="benefit-icon material-icons" aria-hidden="true">accessibility</span>
+          <h3 class="benefit-title">Diseño Universal</h3>
+        </div>
+        <div class="benefit-card-content">
+          <p>Interfaz accesible para personas con discapacidad visual o movilidad reducida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Sección: Público Objetivo -->
+  <section class="target-section" aria-labelledby="para-quienes-title">
+    <h2 class="target-title">¿Para quién es PillBox?</h2>
+    <mat-divider></mat-divider>
+    <div class="target-grid">
+      <div class="target-group">
+        <img src="assets/chequeo.png" alt="Icono de adultos mayores">
+        <h3>Adultos Mayores</h3>
+        <p>Asistencia para seguimiento de tratamientos complejos.</p>
+      </div>
+      <div class="target-group">
+        <img src="assets/cama-de-hospital.png" alt="Icono de pacientes crónicos">
+        <h3>Pacientes Crónicos</h3>
+        <p>Control preciso para diabetes, hipertensión y otras condiciones.</p>
+      </div>
+      <div class="target-group">
+        <img src="assets/carretilla.png" alt="Icono de cuidadores">
+        <h3>Cuidadores</h3>
+        <p>Monitoreo remoto y alertas tempranas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Comparativa Competitiva -->
+  <section class="comparison-section" aria-labelledby="comparativa-title">
+    <h2 id="comparativa-title" class="section-title">¿Por qué elegir PillBox?</h2>
+    <mat-divider class="divider-accent"></mat-divider>
+  
+    <table mat-table [dataSource]="comparisonData" class="comparison-table" aria-label="Tabla comparativa de características">
+      <!-- Columna de Características -->
+      <ng-container matColumnDef="feature">
+        <th mat-header-cell *matHeaderCellDef class="table-header">Característica</th>
+        <td mat-cell *matCellDef="let element" class="table-cell">{{ element.feature }}</td>
+      </ng-container>
+  
+      <!-- Columna de PillBox -->
+      <ng-container matColumnDef="pillbox">
+        <th mat-header-cell *matHeaderCellDef class="table-header">PillBox</th>
+        <td mat-cell *matCellDef="let element" class="table-cell pillbox-cell">
+          <mat-icon *ngIf="element.pillbox" class="check-icon" aria-hidden="true">check_circle</mat-icon>
+          {{ element.pillboxText }}
+        </td>
+      </ng-container>
+  
+      <!-- Columna de Competencia -->
+      <ng-container matColumnDef="competitors">
+        <th mat-header-cell *matHeaderCellDef class="table-header">Competencia</th>
+        <td mat-cell *matCellDef="let element" class="table-cell competitors-cell">
+          <mat-icon *ngIf="!element.pillbox" class="error-icon" aria-hidden="true">error</mat-icon>
+          {{ element.competitorsText }}
+        </td>
+      </ng-container>
+  
+      <!-- Filas -->
+      <tr mat-header-row *matHeaderRowDef="displayedColumns" class="header-row"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="data-row"></tr>
+    </table>
+  </section>
+  
+
+  <!-- Sección: Certificaciones -->
+  <section class="certifications" aria-labelledby="certificaciones-title">
+    <h2 id="certificaciones-title" class="section-title">Certificaciones y Normativas</h2>
+    <div class="certification-logos">
+      <img src="assets/nom-icon.png" alt="Logo Norma Oficial Mexicana">
+      <img src="assets/iso.png" alt="Logo ISO 13485">
+    </div>
+    <p>Cumplimos con todas las regulaciones mexicanas e internacionales para dispositivos médicos.</p>
+  </section>
+</main>
+
+<!-- Pie de Página -->
+<footer>
+  <mat-toolbar class="footer-toolbar" role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-section brand-info">
+        <img src="assets/pillbox-logo.png" alt="PillBox Logo" class="footer-logo">
+        <p class="footer-slogan">Tecnología al servicio de tu salud</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">
+            <mat-icon class="social-icon">facebook</mat-icon>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <mat-icon class="social-icon">twitter</mat-icon>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <mat-icon class="social-icon">linkedin</mat-icon>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section quick-links">
+        <h4 class="footer-heading">Enlaces Rápidos</h4>
+        <ul class="footer-list">
+          <li><a href="#" class="footer-link">Sobre Nosotros</a></li>
+          <li><a href="#" class="footer-link">Blog Médico</a></li>
+          <li><a href="#" class="footer-link">Preguntas Frecuentes</a></li>
+          <li><a href="#" class="footer-link">Soporte Técnico</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact-info">
+        <h4 class="footer-heading">Contacto</h4>
+        <ul class="footer-list">
+          <li><mat-icon>phone</mat-icon> +52 55 1234 5678</li>
+          <li><mat-icon>email</mat-icon> contacto&#64;
+            pillbox.com</li>
+          <li><mat-icon>location_on</mat-icon> CDMX, México</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="legal-info">
+      <span class="mat-caption">© 2025 PillBox. Todos los derechos reservados.</span>
+      <div class="legal-links">
+        <a href="#" class="legal-link">Términos de Servicio</a>
+        <a href="#" class="legal-link">Política de Privacidad</a>
+      </div>
+    </div>
+  </mat-toolbar>
+</footer>

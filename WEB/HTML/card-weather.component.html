@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="container">
+    <div class="cloud front">
+      <span class="left-front"></span>
+      <span class="right-front"></span>
+    </div>
+    <span #sunshine class="sun sunshine"></span>
+    <span #sun class="sun"></span>
+    <span #moon class="moon"></span>
+    <div class="cloud back">
+      <span class="left-back"></span>
+      <span class="right-back"></span>
+    </div>
+  </div>
+
+  <div class="card-header">
+    <span>Xicotepec de Juaréz, <br>Puebla</span>
+    <span>{{ currentDate | date: 'mediumDate' }}</span>
+    <span>{{ currentDate | date: 'shortTime' }}</span>
+  </div>
+
+  <span class="temp">23°</span>
+
+  <div class="temp-scale">
+    <span>Celcius</span>
+  </div>
+</div>

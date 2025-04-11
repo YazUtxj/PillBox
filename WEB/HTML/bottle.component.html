@@ -1,0 +1,38 @@
+<button class="control-btn top-btn" 
+        (click)="decreaseLevel()" 
+        [disabled]="waterLevel === 0">
+  - Tomar Agua (10%)
+</button>
+<div class="e-card playing">
+    <div class="image"></div>
+    
+    <!-- Ondas con bind de estado -->
+    <div class="wave" 
+         *ngFor="let wave of waves; let i = index"
+         [ngClass]="getWaveState(i)"
+         [style.animation-duration]="getWaveSpeed(i)">
+    </div>
+
+    <!-- Indicador de nivel -->
+    <div class="level-indicator" [style.height.%]="waterLevel">
+        <span class="level-text">{{ waterLevel }}%</span>
+    </div>
+</div>
+<button class="control-btn bottom-btn" 
+        (click)="increaseLevel()" 
+        [disabled]="waterLevel === 100">
+  + Rellenar Botella (10%)
+</button>
+<!-- Sección de píldoras -->
+<div class="containers">
+    <div *ngFor="let container of containers">
+        <app-pill></app-pill>
+        <!-- Botón para eliminar la píldora -->
+        <button (click)="removeContainer(container.id)">Eliminar</button>
+    </div>
+</div>
+
+<!-- Botón para agregar una píldora, se deshabilita si ya hay 4 -->
+<button (click)="addContainer()" [disabled]="containers.length >= 4" class="add-containers">
+  Agregar Contenedor
+</button>

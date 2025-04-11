@@ -1,0 +1,248 @@
+/* Estilos actualizados para los botones de control */
+.control-btn {
+  width: 240px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: #5b42f3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  letter-spacing: 0.5px;
+}
+
+.control-btn:hover:not(:disabled) {
+  background-color: #6d53ff;
+  transform: translateY(-2px);
+  box-shadow: 0px 12px 32px -6px rgba(0,0,0,0.35);
+}
+
+.control-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.control-btn:disabled {
+  background-color: #4a3dc2;
+  opacity: 0.7;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.top-btn::before {
+  content: "↓";
+  margin-right: 8px;
+  font-weight: 900;
+}
+
+.bottom-btn::after {
+  content: "↑";
+  margin-left: 8px;
+  font-weight: 900;
+}
+.e-card {
+  /* Mantenemos tus estilos originales */
+  margin: 10px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 240px;
+  height: 330px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.wave {
+  /* Estilos base originales */
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+  transition: all 1s ease;
+}
+
+/* Estados del agua */
+.wave.empty {
+  opacity: 0;
+  animation: none !important;
+}
+
+.wave.low {
+  background: linear-gradient(744deg, #ff6b6b, #ff9f43 60%, #ffd93d);
+  animation-duration: 8s;
+}
+
+.wave.medium {
+  background: linear-gradient(744deg, #5b42f3, #00ddeb 60%, #00ff88);
+  animation-duration: 12s;
+}
+
+.wave.high {
+  background: linear-gradient(744deg, #0048ff, #00b4d8 60%, #90e0ef);
+  animation-duration: 6s;
+}
+
+.wave.full {
+  background: linear-gradient(744deg, #ff0000, #cc0000 60%, #990000);
+  animation: danger-wave 2s infinite linear;
+}
+
+/* Indicador de nivel */
+.level-indicator {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.15);
+  transition: height 1s ease;
+}
+
+.level-text {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Animaciones */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes danger-wave {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.2); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+  .containers{
+    display: flex;
+    gap: 2px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .containers button{
+    background-color: #5b42f3;
+    border: none;
+    padding: 7px;
+    margin: 4px auto;
+    color: white;
+    border-radius: 5px;
+    
+  }
+
+  .containers button:hover{
+    background-color: #5a42f3bf ;
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    cursor: pointer;
+  }
+
+  .add-containers{
+    margin: 2px auto;
+    display: flex;
+    background-color: #5b42f3;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+  }
+
+  .add-containers:hover{
+    scale: 1.15;
+    background-color: #5a42f3bf ;
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  }
+
+  .add-containers:disabled{
+    background-color: #5a42f3bf ;
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    cursor: not-allowed;
+  }
+
+  /* Animaciones originales mejoradas */
+@keyframes wave {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Mantenemos las 3 ondas con diferentes velocidades */
+.wave:nth-child(1) {
+  animation: wave 55s infinite linear;
+  top: -50%;
+}
+
+.wave:nth-child(2) {
+  animation: wave 40s infinite linear;
+  top: 210px;
+  opacity: 0.5;
+}
+
+.wave:nth-child(3) {
+  animation: wave 30s infinite linear;
+  top: 210px;
+  opacity: 0.3;
+}
+
+/* Ajustamos los estados para mantener las animaciones */
+.wave.empty {
+  opacity: 0.2 !important;
+  animation-duration: 100s !important;
+}
+
+.wave.low {
+  animation-duration: 30s;
+}
+
+.wave.medium {
+  animation-duration: 20s;
+}
+
+.wave.high {
+  animation-duration: 10s;
+}
+
+.wave.full {
+  animation: 
+    wave 5s infinite linear,
+    danger-pulse 1.5s infinite ease-in-out;
+}
+
+/* Animación de pulso para estado lleno */
+@keyframes danger-pulse {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* Mantenemos la transición suave para los cambios */
+.wave {
+  transition: 
+    background 0.8s ease,
+    opacity 1.2s ease,
+    animation-duration 1.5s ease;
+}
