@@ -24,11 +24,10 @@ El prototipo fue diseñado en **Blender)**.
 Aquí puedes ver una representación del modelo 3D:  
 
 ## Colaboradores  
-| Nombre                        | Usuario GitHub        | Roles |
-|-------------------------------|---------------------|--------|
-| **Yazmin Gutierrez Hernandez**  | [YazUtxj](https://github.com/YazUtxj)        | Documentador, Frontend, Base de Datos |
-| **Diego Miguel Rivera Chavez**  | [DiegoMiguel04](https://github.com/DiegoMiguel04)       | Backend, IoT, Frontend |
-| **Citlalli Pérez Dionicio**  | [KouDionicio](https://github.com/KouDionicio)   | Base de Datos, Backend |
-| **Erick Matias Granillo Mejia** | [Ematias230045](https://github.com/Ematias230045) | IoT, Backend |
-| **Jennifer Bautista Barrios** | [JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios) | Frontend, Documentador |
-
+|Integrante|Contacto|Rol|Observaciones|
+|------------|--------|---|---|
+|Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos||
+|Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd| |
+|Citlalli Perez Dionicio |[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend| |
+|Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend| |
+|Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador| |

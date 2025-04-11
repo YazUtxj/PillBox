@@ -14,7 +14,6 @@ Esta sección contiene todos los documentos necesarios para entender, desarrolla
 > &nbsp;&nbsp;&nbsp;&nbsp;|- SisteMap<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Sketches<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;|- Wireframes<br>
-> &nbsp;&nbsp;|- Installation<br>
 > &nbsp;&nbsp;|- Manual<br>
 > &nbsp;&nbsp;|- NFRs<br>
 > &nbsp;&nbsp;|- UHs<br>
