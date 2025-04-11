@@ -30,10 +30,10 @@ Este documento define los **Roles de Usuario** dentro del sistema **PILLBOX**. S
 
 ## Integrantes del Proyecto
 
-| Integrante                | Contacto                                                   | Rol                      | Observaciones |
-|---------------------------|------------------------------------------------------------|--------------------------|---------------|
-| Jennifer Bautista Barrios  | [@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)  | FrontEnd, Documentador   |               |
-| Yazmin Gutierrez Hernandez | [@YazUtxj](https://github.com/YazUtxj)                     | Documentador, FrontEnd, Base de Datos |               |
-| Diego Miguel Rivera Chavez | [@DiegoMiguel04](https://github.com/DiegoMiguel04)         | Backend, IoT, FrontEnd   |               |
-| Citlalli Dionicio Cabrera | [@KouDionicio](https://github.com/KouDionicio)             | Base de Datos, Backend   |               |
-| Erick Matias Granillo Mejia| [@Ematias230045](https://github.com/Ematias230045)         | IoT, Backend             |               |
+|Integrante|Contacto|Rol|Observaciones|
+|------------|--------|---|---|
+|Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos|Sin observaciones ✅|
+|Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd|Sin observaciones ✅|
+|Citlalli Perez Dionicio |[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend|Sin observaciones ✅|
+|Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend|Sin observaciones ✅|
+|Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador|Sin observaciones ✅|

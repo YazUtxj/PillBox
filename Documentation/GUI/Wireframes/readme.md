@@ -1,6 +1,7 @@
 # Wireframes![Wireframes](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 
- Un wireframe es una representación visual básica y esquemática de la estructura y disposición de elementos en una interfaz de usuario o página web.
+Un wireframe es una representación visual básica y esquemática de la estructura y disposición de elementos en una interfaz de usuario o página web.
+
 ## Estructura de Archivos
 >PillBos<br>
 >| - Backend <br>
@@ -21,3 +22,13 @@
 > &nbsp;&nbsp;|- UserManual<br>
 >| - FrontEnd <br>
 >| - Iot <br>
+
+## Colaboradores
+
+|Integrante|Contacto|Rol|Observaciones|
+|------------|--------|---|---|
+|Yazmin Gutierrez Hernandez|[@YazUtxj](https://github.com/YazUtxj)|Documentador, FrontEnd, Base de Datos|Sin observaciones ✅|
+|Diego Miguel Rivera Chavez|[@DiegoMiguel04](https://github.com/DiegoMiguel04)|Backend, IoT, FrontEnd|Sin observaciones ✅|
+|Citlalli Perez Dionicio |[@KouDionicio](https://github.com/KouDionicio)|Base de Datos, Backend|Sin observaciones ✅|
+|Erick Matias Granillo Mejia|[@Ematias230045](https://github.com/Ematias230045)|IoT, Backend|Sin observaciones ✅|
+|Jennifer Bautista Barrios|[@JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)|FrontEnd, Documentador|Sin observaciones ✅|
