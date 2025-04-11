@@ -1,8 +1,9 @@
-# Assets
-![Assets](https://img.shields.io/badge/Assets-Carpeta_de_recursos-4CAF50?style=flat&logo=adobe&logoColor=white)
+# Requisitos No Funcionales (NFRs)
+![NFRs](https://img.shields.io/badge/NFRs-Requerimientos_no_funcionales-FF6F00?style=flat&logo=apache&logoColor=white)
+
 
 ## Descripción
-El directorio **ASSETS** contiene todos los recursos visuales, gráficos y multimedia utilizados en el proyecto **PILLBOX**. Aquí se encuentran imágenes, logos, íconos, mockups y otros elementos gráficos que complementan tanto la documentación como la interfaz y materiales promocionales del prototipo.
+En este documento se describen los **Requisitos No Funcionales (NFRs)** para el sistema **PILLBOX**. Estos criterios establecen estándares de calidad esenciales para garantizar una experiencia de usuario óptima, eficiencia, seguridad, confiabilidad y mantenibilidad. Además, se contemplan restricciones y características inherentes derivadas del alcance y limitaciones del prototipo, orientado a la validación técnica y funcional.
 
 ## Estructura de Carpetas del Proyecto
 
@@ -11,9 +12,15 @@ El directorio **ASSETS** contiene todos los recursos visuales, gráficos y multi
 >| - Databases<br>
 >| - Documentation<br>
 >| - **FrontEnd** <br>
-> &nbsp;&nbsp;|- **ASSETS**<br>
+> &nbsp;&nbsp;|- ASSETS<br>
 > &nbsp;&nbsp;|- CSS<br>
-> &nbsp;&nbsp;|- DOCS<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- FRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **NFRs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
 > &nbsp;&nbsp;|- HTML<br>
 > &nbsp;&nbsp;|- JS<br>
 

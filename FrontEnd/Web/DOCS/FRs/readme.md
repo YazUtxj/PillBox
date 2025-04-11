@@ -1,9 +1,12 @@
-# HTML
-![HTML](https://img.shields.io/badge/HTML-Documentación_HTML-E34F26?style=flat&logo=html5&logoColor=white)
+# Requisitos Funcionales (FRs)
+![BRs](https://img.shields.io/badge/BRs-Requerimientos_del_negocio-6A1B9A?style=flat&logo=notion&logoColor=white)
 
 
 ## Descripción
-El directorio **HTML** contiene la estructura y la maquetación de la interfaz del prototipo **PILLBOX**. Aquí se definen las páginas, secciones y componentes esenciales que conformarán la parte visual y accesible del sistema, utilizando elementos semánticos de HTML5 para garantizar una correcta organización y una experiencia de usuario óptima.
+Este documento contiene los **Requisitos Funcionales (FRs)** del sistema **PILLBOX**. Aquí se detallan las funcionalidades que la aplicación web debe ofrecer para una gestión efectiva de medicamentos, interacción intuitiva y segura, e integración con los dispositivos IoT asociados. Cada requisito se define desde una perspectiva centrada en el usuario y en el cumplimiento de los objetivos globales del proyecto.
+
+> **Nota:** Los requisitos funcionales son dinámicos y podrán evolucionar conforme se avance en el desarrollo y se reciba retroalimentación de los usuarios y stakeholders.
+
 
 ## Estructura de Carpetas del Proyecto
 
@@ -14,8 +17,14 @@ El directorio **HTML** contiene la estructura y la maquetación de la interfaz d
 >| - **FrontEnd** <br>
 > &nbsp;&nbsp;|- ASSETS<br>
 > &nbsp;&nbsp;|- CSS<br>
-> &nbsp;&nbsp;|- DOCS<br>
-> &nbsp;&nbsp;|- **HTML**<br>
+> &nbsp;&nbsp;|- **DOCS**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- BRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- **FRs**<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- GUI<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- NFRs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UHs<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;|- UserRoles<br>
+> &nbsp;&nbsp;|- HTML<br>
 > &nbsp;&nbsp;|- JS<br>
 
 
