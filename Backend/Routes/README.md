@@ -1,12 +1,11 @@
-# Controllers  ![Controllers](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+# Rutas  ![Express Router](https://img.shields.io/badge/Express%20Router-%23404D59?style=for-the-badge&logo=express&logoColor=white)
 
 En este apartado se encuentran las rutas utilizadas en la API del proyecto, entre estos se encuentran los endpoints que utiliza el front para hacer peticiones y poder ejecutar la logica de los controladores
- 
 
 ## Estructura de Archivos
 
 >PillBox<br>
->| - Backend <br>
+>| - **Backend** <br>
 >&nbsp;&nbsp;|- Controllers<br>
 >&nbsp;&nbsp;|- DB_Connection<br>
 >&nbsp;&nbsp;|- Models<br>

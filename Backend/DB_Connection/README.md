@@ -1,4 +1,5 @@
-# Controllers  ![Controllers](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+# Conexión a BD  ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
 
 En este apartado se encuentran los archivos principales para la configuracion del servidor de la API utilizada en el proyecto, aqui se encuentra la conexion a la base de datos en la nube en MongoDB
  
@@ -6,7 +7,7 @@ En este apartado se encuentran los archivos principales para la configuracion de
 ## Estructura de Archivos
 
 >PillBox<br>
->| - Backend <br>
+>| - **Backend** <br>
 >&nbsp;&nbsp;|- Controllers<br>
 >&nbsp;&nbsp;|- **DB_Connection**<br>
 >&nbsp;&nbsp;|- Models<br>

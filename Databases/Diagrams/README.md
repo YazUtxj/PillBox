@@ -7,7 +7,7 @@ En el apartado de **Diagramas** en la documentación del proyecto se incluyen re
 
 >PillBox<br>
 >| - Backend <br>
->| - Databases<br>
+>| - **Databases**<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- **Diagrams**<br>
 >&nbsp;&nbsp;|- Queries<br>

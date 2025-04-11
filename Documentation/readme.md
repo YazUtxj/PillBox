@@ -1,9 +1,7 @@
 # Documentacion  ![Documentation](https://img.shields.io/badge/Microsoft_Teams-6264A7?style=for-the-badge&logo=microsoft-teams&logoColor=white)
-
 Aquí tienes el texto actualizado:  
 Esta sección contiene todos los documentos necesarios para entender, desarrollar y mantener el proyecto. Incluye desde la descripción de requisitos hasta manuales de usuario y diagramas de diseño. Además, puedes ver una documentación más completa  [aquí](https://drive.google.com/file/d/13zO10lTwewDM8wTGwSG6uYTL97t9yWUt/view?usp=drive_link)
 ## Estructura de Archivos
-
 >PillBox<br>
 >| - Backend <br>
 >| - Databases<br>

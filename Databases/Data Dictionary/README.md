@@ -5,7 +5,7 @@ En esta sección de diccionario de datos describe todos los elementos de datos u
 
 >PillBox<br>
 >| - Backend <br>
->| - Databases<br>
+>| - **Databases**<br>
 >&nbsp;&nbsp;|- **Data Dictionary**<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- Queries<br>

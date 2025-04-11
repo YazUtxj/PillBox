@@ -1,4 +1,5 @@
-# Controllers  ![Controllers](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+# Controllers  ![Express.js](https://img.shields.io/badge/Express.js-%23404D59?style=for-the-badge&logo=express&logoColor=white)
+
 
 En este apartado se encuentran los controladores utilizados en la API del proyecto, estos estan conformados por la logica requerida para almacenar, leer, actualizar y eliminar datos en la Base de Datos. Estos archivos son utilizados para autentificar las cuentas de los usuarios registrados en la aplicacion del proyecto, gestionar la informacion obtenida por el sensor de temperatura y humedad, gestionar los datos registrados de las alarmas almacenadas desde el pastillero y la configuracion necesaria para ejecutar la API
  
@@ -6,7 +7,7 @@ En este apartado se encuentran los controladores utilizados en la API del proyec
 ## Estructura de Archivos
 
 >PillBox<br>
->| - Backend <br>
+>| - **Backend** <br>
 >&nbsp;&nbsp;|- **Controllers**<br>
 >&nbsp;&nbsp;|- DB_Connection<br>
 >&nbsp;&nbsp;|- Models<br>

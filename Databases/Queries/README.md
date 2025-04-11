@@ -1,4 +1,5 @@
-# Queries  ![Queries](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+# Queries  ![MongoDB Queries](https://img.shields.io/badge/MongoDB%20Queries-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
 
 En el apartado de **Consultas** en la documentación del proyecto, se describen las consultas específicas que se utilizan para acceder y manipular datos en la base de datos del sistema. Estas consultas son fundamentales para obtener información precisa y realizar operaciones sobre los datos almacenados.
 
@@ -6,7 +7,7 @@ En el apartado de **Consultas** en la documentación del proyecto, se describen 
 
 >PillBox<br>
 >| - Backend <br>
->| - Databases<br>
+>| - **Databases**<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- **Queries**<br>  

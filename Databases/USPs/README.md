@@ -1,16 +1,13 @@
 # USPs ![Code](https://img.shields.io/badge/USPs-000000?style=for-the-badge&logo=codeforces&logoColor=white)
 
-La sección **MongoDB** en la documentación del proyecto alberga información detallada sobre la integración, configuración y uso de MongoDB dentro del sistema. Aquí se centralizan los recursos necesarios para la gestión de bases de datos, estructuras de datos y consultas que permiten almacenar, recuperar y manipular la información dentro del proyecto. MongoDB es utilizado como base de datos NoSQL debido a su flexibilidad y escalabilidad.
-
-Esta carpeta contiene los archivos necesarios para la conexión, esquemas, configuraciones y ejemplos prácticos de uso de MongoDB en el contexto del proyecto.
-
-
+ **MongoDB** es la base de datos NoSQL del proyecto, elegida por su flexibilidad y escalabilidad.  
+ Aquí se centralizan los archivos de conexión, esquemas, configuraciones y ejemplos de uso.
 
 ## Estructura de Archivos
 
 >PillBox<br>
 >| - Backend <br>
->| - Databases<br>
+>| - **Databases**<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- Queries<br>  

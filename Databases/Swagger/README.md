@@ -1,22 +1,17 @@
 # Swagger ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-
-La sección **Swagger** documenta las rutas de la API REST utilizadas en este proyecto, facilitando la comprensión y el consumo de los servicios disponibles. Gracias a la integración con `swagger-jsdoc` y `swagger-ui-express`, se genera automáticamente una documentación interactiva accesible desde el navegador.
-
-Esta carpeta contiene la configuración de Swagger, así como los comentarios necesarios para generar la especificación OpenAPI a partir del código.
-
+Swagger documenta las rutas de la API REST, facilitando su comprensión y consumo.
+Esta carpeta contiene su configuración y los comentarios para generar la especificación OpenAPI.
 ## Acceso a la documentación
+Una vez que el servidor esté en ejecución, puedes acceder a la documentación **Swagger** en la siguiente URL:  
 
-Una vez que el servidor esté en ejecución, puedes acceder a la documentación Swagger en la siguiente URL:
-
-
-
+🔗 [Abrir  ApiSwagger](http://localhost:PUERTO/api-docs)
 
 
 ## Estructura de Archivos
 
 >PillBox<br>
 >| - Backend <br>
->| - Databases<br>
+>| - **Databases**<br>
 >&nbsp;&nbsp;|- Data Dictionary<br>
 >&nbsp;&nbsp;|- Diagrams<br>
 >&nbsp;&nbsp;|- Queries<br>  
