@@ -41,28 +41,6 @@ Este proyecto consiste en un **pastillero automático inteligente** diseñado pa
    - Conecta el LED al pin `D12` con una resistencia de 220Ω.  
    - Alimenta el circuito con una fuente de 5V.  
 
-2. **Programación del ESP32**:  
-   - Configura horarios de dispensación en el código (`horarios[]`).  
-   - Personaliza el comportamiento del LED (ej: parpadeo cada 10 segundos).  
-
-   ```cpp
-   #include <ESP32Servo.h>
-   Servo servo;
-   const int pinServo = 13;
-   const int pinLED = 12;
-
-   void setup() {
-     servo.attach(pinServo);
-     pinMode(pinLED, OUTPUT);
-   }
-
-   void dispensarPastilla() {
-     servo.write(180);  // Gira 180° para liberar la pastilla
-     delay(1000);
-     servo.write(0);     // Vuelve a la posición inicial
-   }
-   ```  
-
 3. **Interfaz web (opcional)**:  
    - Usa el módulo Wi-Fi del ESP32 para crear un servidor web local y configurar horarios desde un navegador.  
 
@@ -78,39 +56,12 @@ Este proyecto consiste en un **pastillero automático inteligente** diseñado pa
 
 ---
 
-## 📂 Estructura del Código  
-```plaintext
-/  
-├── src/  
-│   ├── main.cpp           # Lógica principal  
-│   └── config.h           # Configuración de horarios y pines  
-├── lib/  
-│   └── ESP32Servo/        # Librería para control del servo  
-├── docs/  
-│   └── diagrama.pdf       # Esquema de conexiones  
-└── README.md              # Este archivo  
-```  
+## Colaboradoes
 
----
-
-## 🤝 Contribuir  
-¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto:  
-1. Haz un fork del repositorio.  
-2. Crea una rama: `git checkout -b nueva-funcionalidad`.  
-3. Realiza tus cambios y haz commit: `git commit -m 'Añade X feature'`.  
-4. Haz push a la rama: `git push origin nueva-funcionalidad`.  
-5. Abre un Pull Request.  
-
----
-
-## 📜 Licencia  
-Este proyecto está bajo la licencia **MIT**. Más detalles en [LICENSE](LICENSE).  
-
----
-
-## ✉️ Contacto  
-¿Preguntas o sugerencias? ¡Escríbeme!  
-- 📧 Email: tucorreo@ejemplo.com  
-- 🌐 GitHub: [@tuusuario](https://github.com/tuusuario)  
-
----
+| Nombre                        | Usuario             | Roles |
+|-------------------------------|---------------------|--------|
+| Yazmin Gutierrez Hernandez  | [YazUtxj](https://github.com/YazUtxj)        | Documentador , FronEnd,  Base de Datos       |
+| Diego Miguel Rivera Chavez          | [DiegoMiguel04](https://github.com/DiegoMiguel04)       |  Backend, Iot , FronEnd     |
+| Citlalli Pérez Dionicio         | [KouDionicio](https://github.com/KouDionicio)             |  Base de Datos ,Backend     |
+|  Erick Matias Granillo Mejia           | [Ematias230045](https://github.com/Ematias230045)            | Iot ,Backend     |
+| Jennifer Bautista Barrios           |[JenniferBautistaBarrios](https://github.com/JenniferBautistaBarrios)            | FronEnd , Documentador      |

@@ -1,172 +1,101 @@
-# 🌡️📦 Sistema de Monitoreo de Contenedores con ESP32
+# 🚀 Proyecto ESP32 - PillBox
 
-Este proyecto utiliza un **ESP32** para monitorear contenedores a través de **sensores DHT22**, **LEDs**, **buzzer**, y comunicación vía **WiFi** con una API en Node.js. ¡Perfecto para proyectos de automatización y control inteligente! ⚙️✨
-
----
-
-## 📋 Características
-
-- 📡 Conexión WiFi con red predefinida
-- 🌐 Consulta de información desde una API REST
-- 🔄 Sincronización de hora mediante NTP
-- 💡 Control de 4 LEDs según tiempos configurados por el servidor
-- 🔊 Alarma sonora con buzzer cuando algún contenedor requiere atención
-- 🌡️ Lectura de temperatura con sensor DHT22
-- 🔁 Interfaz HTTP para actualización de `userId` en tiempo real
+Este proyecto implementa un sistema de monitoreo y control basado en ESP32 que:
+- Lee temperatura y humedad con un sensor **DHT22**
+- Se conecta a una **API REST** para obtener información de contenedores
+- Controla LEDs, un **servo motor** y un **buzzer** según reglas temporales
+- Envía datos del sensor a un servidor remoto
+- Expone un **servidor web** para actualizar el `userId`
 
 ---
 
-## 🧰 Tecnologías y Librerías
+## 🔧 Características principales
 
-- [ArduinoJson](https://arduinojson.org/)
-- [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
-- WiFi y HTTPClient para conexión a Internet
-- WebServer integrado en ESP32
-- Preferences para almacenamiento persistente
-
----
-
-## 📦 Hardware Requerido
-
-| Componente       | Descripción              |
-|------------------|--------------------------|
-| ESP32            | Microcontrolador principal |
-| Sensor DHT22     | Sensor de temperatura y humedad |
-| LEDs x4          | Indicadores visuales     |
-| Buzzer           | Alarma sonora            |
-| Cables, protoboard, etc. | Conexiones básicas |
+- **Sensor DHT22**: Mide temperatura y humedad cada 10 segundos y los envía a la API.
+- **Servo motor**: Se activa brevemente (180°) al encender cualquier LED, y regresa a 90°.
+- **4 LEDs**: Simulan contenedores, se activan de forma periódica según datos obtenidos del servidor.
+- **Buzzer**: Se activa cuando cualquier LED está encendido.
+- **Servidor web (puerto 80)**: Permite actualizar el `userId` vía POST (`/update-user`).
+- **Preferencias (EEPROM)**: Guarda el `userId` entre reinicios.
+- **Modo de pruebas (`modoPruebas`)**: Acelera tiempos de simulación.
 
 ---
 
-## 🔌 Pines Utilizados
+## 🔌 Hardware utilizado
 
-| Elemento        | Pin ESP32 |
-|------------------|-----------|
-| DHT22            | GPIO 18   |
-| LEDs             | GPIOs 4, 5, 19, 21 |
-| Buzzer           | GPIO 13   |
+- ESP32
+- Sensor DHT22 (GPIO 18)
+- Servo motor (GPIO 27)
+- Buzzer (GPIO 13)
+- 4 LEDs (GPIO 4 – mismo pin en este caso, puedes separar si deseas)
+- Conexión WiFi
 
 ---
 
-## ⚙️ Configuración Inicial
+## 🌐 Endpoints
 
-1. Edita las siguientes variables en el código para conectar con tu red y API:
+- `POST /update-user`: Recibe un JSON con nuevo `userId`, lo guarda y actualiza los datos.
+
+Ejemplo JSON:
+```json
+{
+  "userId": "nuevo_id_aqui"
+}
+```
+
+---
+
+## 🔗 Conexión a API
+
+- **GET** `/get-containers/:userId`  
+  Recibe la configuración de tiempos (horas y días) para los contenedores.
+  
+- **POST** `/create-graphdata`  
+  Envía los datos de temperatura y humedad en formato JSON.
+
+---
+
+## 🛠️ Configuración
+
+En el código puedes modificar:
+
 ```cpp
-const char* ssid = "HUAWEIY9a";
-const char* password = "jijijija";
-String ipPC = "192.168.43.130";
+const char* ssid = "Tecnologias";
+const char* password = "123456789";
+String ipPC = "10.10.24.14"; // IP de tu servidor
 String userId = "67e0da504940eba8e914b496";
 ```
 
-2. La URL de la API se genera dinámicamente:
-```cpp
-String serverUrl = "http://" + ipPC + ":3000/get-containers/" + userId;
-```
+---
 
-3. El dispositivo sincroniza la hora con el servidor NTP:
-```cpp
-const char* ntpServer = "pool.ntp.org";
-long gmtOffset_sec = -21600; // GMT-6
-int daylightOffset_sec = 3600; // Horario de verano
-```
+## 🚦 Lógica de LEDs
+
+Cada LED:
+- Se enciende si ha pasado cierto intervalo (`hours`)
+- Se apaga después de 8 segundos
+- Se puede desactivar desde el backend (si `hours` o `days` son 0)
 
 ---
 
-## 🌐 Endpoints HTTP
+## 🧪 Modo de pruebas
 
-| Método | Ruta           | Descripción                              |
-|--------|----------------|------------------------------------------|
-| POST   | `/update-user` | Recibe un nuevo `userId` para consultar nuevos contenedores |
-
-Ejemplo de JSON:
-```json
-{
-  "userId": "nuevo_id_de_usuario"
-}
-```
-
----
-
-## 🔁 Lógica de Funcionamiento
-
-### 1. Inicio (`setup()`):
-- Configura los pines, sensor y WiFi.
-- Sincroniza con NTP.
-- Recupera configuración previa (`Preferences`).
-- Consulta la API y obtiene los tiempos de los contenedores.
-
-### 2. Bucle Principal (`loop()`):
-- Gestiona los LEDs de acuerdo al tiempo transcurrido.
-- Activa el buzzer si algún LED está encendido.
-- Verifica si algún contenedor ha caducado y actualiza la API.
-
----
-
-## 🧪 Modo de Pruebas
-
+Activado por defecto:
 ```cpp
 bool modoPruebas = true;
 ```
-
-Cuando está activo:
-- Multiplica los **horas** y **días** recibidos para pruebas rápidas.
+Multiplica los tiempos por factores más pequeños para facilitar pruebas.
 
 ---
 
-## 🔔 Alarma y Control
+## 📦 Dependencias
 
-- Si el tiempo configurado se cumple:
-  - 🔅 El LED correspondiente se enciende por un tiempo breve (`ledDuration`)
-  - 🔔 El buzzer suena si hay al menos un LED encendido
+Incluye las siguientes librerías:
+- `WiFi.h`
+- `HTTPClient.h`
+- `ArduinoJson.h`
+- `WebServer.h`
+- `DHT.h`
+- `Preferences.h`
+- `ESP32Servo.h`
 
-- Si un contenedor excede el tiempo total (`ledDays`):
-  - ❌ Se desactiva local y remotamente
-
----
-
-## 📤 Comunicación con API
-
-- **GET**: `/get-containers/:userId` → recibe configuración de contenedores
-- **POST**: `/edit-container` → desactiva contenedores caducados
-
-Ejemplo de cuerpo de desactivación:
-```json
-{
-  "containerId": "67e0da504940eba8e914b496",
-  "hours": 0,
-  "days": 0
-}
-```
-
----
-
-## 🧠 Archivos Importantes
-
-- `fetchDataFromAPI()` → Sincroniza contenedores desde el servidor.
-- `checkAndDisableExpiredContainers()` → Verifica y desactiva contenedores vencidos.
-- `handleUpdateUserId()` → Actualiza dinámicamente el `userId`.
-- `turnOn() / turnOff()` → Controlan LEDs individuales.
-- `setBuzzerTone()` → Activa buzzer a una frecuencia deseada.
-
----
-
-## ✅ Ejemplo en Consola
-
-```
-Conectando a WiFi...
-Conectado a WiFi!
-Dirección IP de la ESP32: 192.168.43.155
-⌚ Sincronizando con NTP...
-⌚ Hora sincronizada con NTP
-📦 Datos recibidos de la API:
-[
-  {
-    "hours": 2,
-    "days": 1
-  },
-  ...
-]
-✅ Contenedor 0: 2 horas -> 7200 segundos
-Días: 1 -> 86400 segundos
-```
 ---
