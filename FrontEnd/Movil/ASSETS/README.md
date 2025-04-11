@@ -1,22 +1,16 @@
-# CSS
-![CSS](https://img.shields.io/badge/Estilos-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+# Assets ![Assets](https://img.shields.io/badge/Assets-Carpeta_de_recursos-4CAF50?style=flat&logo=adobe&logoColor=white)
 
-
-## Descripción
-El directorio **CSS** contiene todas las hojas de estilo utilizadas en el proyecto **PILLBOX** para definir y gestionar la apariencia visual e interacción de la interfaz de usuario. En este espacio se centralizan los estilos globales, componentes reutilizables y directrices de diseño que aseguran la coherencia visual en todas las secciones del prototipo.
-
+El directorio **ASSETS** almacena los recursos visuales utilizados en la aplicación móvil **PILLBOX**. Aquí se encuentran imágenes, íconos, logos y otros elementos gráficos que enriquecen la interfaz y mejoran la experiencia del usuario.
 ## Estructura de Carpetas del Proyecto
-
 >PillBox<br>
 >| - Backend <br>
 >| - Databases<br>
 >| - Documentation<br>
 >| - **FrontEnd** <br>
-> &nbsp;&nbsp;|- ASSETS<br>
-> &nbsp;&nbsp;|- **CSS**<br>
-> &nbsp;&nbsp;|- DOCS<br>
-> &nbsp;&nbsp;|- HTML<br>
-> &nbsp;&nbsp;|- JS<br>
+> &nbsp;&nbsp;|- **Movil**<br>
+> &nbsp;&nbsp;|-Web<br>
+>| - Iot<br>
+
 
 
 ## Integrantes del Proyecto
